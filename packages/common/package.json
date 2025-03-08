@@ -1,6 +1,6 @@
 {
   "name": "@ic-wallet-kit/common",
-  "version": "0.1.325",
+  "version": "0.0.1",
   "description": "Ic middleware wallet common objects",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
