@@ -7,3 +7,7 @@ node_modules/
 /packages/common/dist/
 /packages/icrc/dist/
 /packages/hpl/dist/
+/packages/common/package-lock.json
+/packages/icrc/package-lock.json
+/packages/hpl/package-lock.json
+*swp

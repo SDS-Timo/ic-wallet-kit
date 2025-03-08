@@ -1,5 +1,6 @@
 {
   "name": "ic-wallet-kit",
+  "private": "true",
   "version": "0.1.0",
   "description": "IC Wallet Kit",
   "main": "dist/index.js",
@@ -26,7 +27,8 @@
     "build-all": "clear && npm run build-common && npm run build-common-update-dependency && npm run build-icrc && npm run build-hpl && npm run update-console",
     "build-all-force": "clear && npm run common-publish-force && npm run build-common-update-dependency && npm run icrc-publish-force && npm run hpl-publish-force && npm run update-console",
     "ba": "npm run build-all",
-    "baf": "npm run build-all-force"
+    "baf": "npm run build-all-force",
+    "test": "npm run test --workspaces"
   },
   "bugs": {
     "url": "https://github.com/SDS-Timo/ic-wallet-kit/issues"
@@ -51,5 +53,10 @@
     "@research-ag/hpl-client": {
       "rxjs": "7.8.2"
     }
-  }
+  },
+  "workspaces": [
+    "packages/common",
+    "packages/hpl",
+    "packages/icrc"
+  ]
 }
