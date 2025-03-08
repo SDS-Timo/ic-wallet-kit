@@ -1,13 +1,12 @@
 {
   "name": "ic-wallet-kit",
   "private": "true",
-  "version": "0.1.0",
   "description": "IC Wallet Kit",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SDS-Timo/ic-wallet-kit.git"
+    "url": "git+https://github.com/research-ag/ic-wallet-kit.git"
   },
   "author": "SDS",
   "license": "MIT",
