@@ -1,6 +1,6 @@
 {
   "name": "@ic-wallet-kit/hpl",
-  "version": "0.1.200",
+  "version": "0.0.1",
   "description": "Ic middleware wallet HPL protocol",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -38,7 +38,7 @@
     "@dfinity/identity": "2.3.0",
     "@dfinity/identity-secp256k1": "2.3.0",
     "@dfinity/principal": "2.3.0",
-    "@ic-wallet-kit/common": "0.1.325",
+    "@ic-wallet-kit/common": "file:../common",
     "@research-ag/hpl-client": "0.0.1",
     "big-integer": "1.6.52",
     "moment": "2.30.1",
