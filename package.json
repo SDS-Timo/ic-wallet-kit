@@ -33,9 +33,6 @@
     "url": "https://github.com/SDS-Timo/ic-wallet-kit/issues"
   },
   "homepage": "https://github.com/SDS-Timo/ic-wallet-kit/readme.md",
-  "directories": {
-    "lib": "dist"
-  },
   "keywords": [
     "ic-wallet-kit"
   ],
