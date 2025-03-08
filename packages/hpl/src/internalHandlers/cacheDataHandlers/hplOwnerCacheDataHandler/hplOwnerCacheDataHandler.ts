@@ -3,7 +3,7 @@ import { OwnersActorWrapper } from "@hpl/hplWrappers";
 import { IHplOwnerCacheRepository } from "@hpl/repositories/cache/hplOwnerCacheRepository/hplOwnerCacheRepository";
 import { CanisterService } from "@hpl/service/canisterService";
 import { HplOwnerDataCacheModel } from "@hpl/types/cache/hplOwnerDataCacheModel";
-import { BaseCacheDataHandler, CacheDataError, IdentifierService, ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { BaseCacheDataHandler, CacheDataError, IdentifierService, ILogger, LoadType } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

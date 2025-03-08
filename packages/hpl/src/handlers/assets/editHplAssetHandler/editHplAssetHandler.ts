@@ -1,7 +1,7 @@
 import { EditHplAssetForm } from "@hpl/forms/editHplAssetForm";
 import { EditHplAssetResult } from "@hpl/forms/editHplAssetResult";
 import { HplAssetRepository } from "@hpl/repositories/persists/hplAssetRepository/hplAssetRepository";
-import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

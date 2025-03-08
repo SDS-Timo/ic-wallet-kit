@@ -1,20 +1,20 @@
 {
-  "name": "hpl-middleware-wallet",
+  "name": "ic-wallet-kit",
   "version": "0.1.0",
-  "description": "Hpl middleware wallet",
+  "description": "IC Wallet Kit",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SDS-Timo/hpl-middleware-wallet.git"
+    "url": "git+https://github.com/SDS-Timo/ic-wallet-kit.git"
   },
   "author": "SDS",
   "license": "MIT",
   "scripts": {
     "build-common": "cd packages/common && npm run build-publish && cd ../..",
     "common-publish-force": "cd packages/common && npm run publish-force && cd ../..",
-    "update-common-icrc": "cd packages/icrc && npm install @ic-wallet-middleware/common && cd ../..",
-    "update-common-hpl": "cd packages/hpl   && npm install @ic-wallet-middleware/common && cd ../..",
+    "update-common-icrc": "cd packages/icrc && npm install @ic-wallet-kit/common && cd ../..",
+    "update-common-hpl": "cd packages/hpl   && npm install @ic-wallet-kit/common && cd ../..",
     "build-common-update-dependency": "npm run build-common && npm run update-common-icrc && npm run update-common-hpl",
     "build-lib-dependency": "npm run build-common && npm run build-common-update-dependency",
     "brake-1": "-------------------------",
@@ -29,19 +29,27 @@
     "baf": "npm run build-all-force"
   },
   "bugs": {
-    "url": "https://github.com/SDS-Timo/hpl-middleware-wallet/issues"
+    "url": "https://github.com/SDS-Timo/ic-wallet-kit/issues"
   },
-  "homepage": "https://github.com/SDS-Timo/hpl-middleware-wallet/readme.md",
+  "homepage": "https://github.com/SDS-Timo/ic-wallet-kit/readme.md",
   "directories": {
     "lib": "dist"
   },
   "keywords": [
-    "hpl"
+    "ic-wallet-kit"
   ],
   "devDependencies": {
     "@eslint/js": "^9.13.0",
     "eslint": "^9.13.0",
     "globals": "^15.11.0",
     "typescript-eslint": "^8.11.0"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.2"
+  },
+  "overrides": {
+    "@research-ag/hpl-client": {
+      "rxjs": "7.8.2"
+    }
   }
 }

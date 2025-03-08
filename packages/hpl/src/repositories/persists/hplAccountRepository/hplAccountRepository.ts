@@ -1,7 +1,7 @@
 import { EditHplAccountForm } from "@hpl/forms/accounts/editHplAccountForm";
 import { IHplAccountDataStorage } from "@hpl/storage/hplAccountDataStorage";
 import { HplAccountDataModel } from "@hpl/types/accounts/hplAccountDataModel";
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

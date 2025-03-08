@@ -2,7 +2,7 @@ import { itForeach } from "@hpl/__tests_utils/itForeach";
 import { MockLogger } from "@hpl/__tests_utils/mockLogger";
 import { GetHplFeeConstantHandler } from "@hpl/handlers/transfer/getHplFeeConstantHandler/getHplFeeConstantHandler";
 import { HplFeeConstantCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplFeeConstantCacheDataHandler/hplFeeConstantCacheDataHandler";
-import { LoadType } from "@ic-wallet-middleware/common";
+import { LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit TransferHandler tests", () => {
     const testData = [

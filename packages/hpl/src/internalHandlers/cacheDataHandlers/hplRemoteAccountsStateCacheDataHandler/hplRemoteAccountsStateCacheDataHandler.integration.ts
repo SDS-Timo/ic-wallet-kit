@@ -6,7 +6,7 @@ import { HplStateCacheDataInfo } from "@hpl/forms";
 import { HplRemoteAccountsStateCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplRemoteAccountsStateCacheDataHandler/hplRemoteAccountsStateCacheDataHandler";
 import { HplStateCacheRepository } from "@hpl/repositories";
 import { HplStateRemoteAccountsCacheModel } from "@hpl/types";
-import { FormResult, LoadType } from "@ic-wallet-middleware/common";
+import { FormResult, LoadType } from "@ic-wallet-kit/common";
 
 
 describe("Unit HplVirtualAccountsStateCacheDataHandler tests", () => {

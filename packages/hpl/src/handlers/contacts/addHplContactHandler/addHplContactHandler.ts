@@ -3,7 +3,7 @@ import { GetHplContactRemotesHandler } from "@hpl/internalHandlers";
 import { HplContactRepository } from "@hpl/repositories/persists/hplContactRepository/hplContactRepository";
 import { HplAvailableRemote, HplContactDataModel, HplRemote } from "@hpl/types";
 import { HplContactRemoteDataModel } from "@hpl/types/contacts/hplContactRemoteDataModel";
-import { BaseHandler, getPropertyName, ILogger, LoadType, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, ILogger, LoadType, ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

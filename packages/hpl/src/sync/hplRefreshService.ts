@@ -2,7 +2,7 @@ import { GetHplAccountListHandler, GetHplAssetListHandler, GetHplVirtualAccountL
 import { GetHplContactListHandler } from "@hpl/handlers/contacts/getHplContactListHandler/getHplContactListHandler";
 import { HplRxSyncStateService } from "@hpl/replications/hplRxSyncStateService";
 
-import { LoadType, RefreshServiceBase, RefreshServiceConfiguration } from "@ic-wallet-middleware/common";
+import { LoadType, RefreshServiceBase, RefreshServiceConfiguration } from "@ic-wallet-kit/common";
 import { Inject, Service } from "typedi";
 
 @Service()

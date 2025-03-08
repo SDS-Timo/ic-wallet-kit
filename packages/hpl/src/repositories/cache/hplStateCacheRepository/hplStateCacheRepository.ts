@@ -3,7 +3,7 @@ import { HplStateAccountsCacheModel } from "@hpl/types/cache/hplStateAccountsCac
 import { HplStateCacheModel } from "@hpl/types/cache/hplStateCacheModel";
 import { HplStateRemoteAccountsCacheModel } from "@hpl/types/cache/hplStateRemoteAccountsCacheModel";
 import { HplStateVirtualAccountsCacheModel } from "@hpl/types/cache/hplStateVirtualAccountsCacheModel";
-import { IdentifierService, ILocalCacheStorage, ILogger, IStorage, jsonParse, jsonStringify } from "@ic-wallet-middleware/common";
+import { IdentifierService, ILocalCacheStorage, ILogger, IStorage, jsonParse, jsonStringify } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

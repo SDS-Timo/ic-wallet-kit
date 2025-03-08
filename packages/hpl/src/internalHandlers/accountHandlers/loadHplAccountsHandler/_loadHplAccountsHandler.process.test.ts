@@ -12,7 +12,7 @@ import {
     LoadHplAccountsHandler
 } from "@hpl/internalHandlers";
 import { HplOwnerDataCacheModel } from "@hpl/types";
-import { LoadType } from "@ic-wallet-middleware/common";
+import { LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit GetHplAccountListHandler tests", () => {
     const testData = [

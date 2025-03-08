@@ -3,7 +3,7 @@ import { MockLogger } from "@hpl/__tests_utils/mockLogger";
 import { EditHplAssetForm } from "@hpl/forms";
 import { EditHplAssetHandler } from "@hpl/handlers/assets/editHplAssetHandler/editHplAssetHandler";
 import { HplAssetRepository } from "@hpl/repositories";
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 
 describe("Unit EditHplAssetHandler process tests", () => {
 

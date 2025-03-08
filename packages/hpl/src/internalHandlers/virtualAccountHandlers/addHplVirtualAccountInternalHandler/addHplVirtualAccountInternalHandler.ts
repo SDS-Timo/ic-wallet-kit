@@ -4,7 +4,7 @@ import { HplMintCacheDataHandler, HplOwnerCacheDataHandler } from "@hpl/internal
 import { IHplDataCacheRepository } from "@hpl/repositories";
 import { CanisterService } from "@hpl/service";
 import { HplVirtualAccount } from "@hpl/types";
-import { BaseHandler, getPropertyName, getPxlCode, IdentifierService, ILogger, LoadType, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, getPxlCode, IdentifierService, ILogger, LoadType, ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

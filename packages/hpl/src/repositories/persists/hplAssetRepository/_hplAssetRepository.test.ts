@@ -2,7 +2,7 @@ import { EditHplAssetForm } from "@hpl/forms/editHplAssetForm";
 import { HplAssetRepository } from "@hpl/repositories/persists/hplAssetRepository/hplAssetRepository";
 import { IHplAssetDataStorage } from "@hpl/storage/hplAssetDataStorage";
 import { HplAssetDataModel } from "@hpl/types/assets/hplAssetDataModel";
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 
 describe("HplAssetRepository Process Tests", () => {
     let repository: HplAssetRepository;

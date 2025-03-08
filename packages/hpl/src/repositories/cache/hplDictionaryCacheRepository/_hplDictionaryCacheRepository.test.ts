@@ -1,7 +1,7 @@
 
 import { HplDictionaryCacheRepository } from "@hpl/repositories/cache/hplDictionaryCacheRepository/hplDictionaryCacheRepository";
 import { HplDictionaryDataCacheModel } from "@hpl/types/cache/hplDictionaryDataCacheModel";
-import { IdentifierService, ILogger, IStorage, jsonStringify } from "@ic-wallet-middleware/common";
+import { IdentifierService, ILogger, IStorage, jsonStringify } from "@ic-wallet-kit/common";
 
 describe("HplDictionaryCacheRepository Process Tests", () => {
     let repository: HplDictionaryCacheRepository;

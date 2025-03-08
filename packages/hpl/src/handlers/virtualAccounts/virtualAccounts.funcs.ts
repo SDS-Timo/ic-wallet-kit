@@ -5,7 +5,7 @@ import { DeleteHplVirtualAccountHandler } from "@hpl/handlers/virtualAccounts/de
 import { EditHplVirtualAccountHandler } from "@hpl/handlers/virtualAccounts/editHplVirtualAccountHandler/editHplVirtualAccountHandler";
 import { GetHplVirtualAccountListHandler } from "@hpl/handlers/virtualAccounts/getHplVirtualAccountListHandler/getHplVirtualAccountListHandler";
 import { ResetHplVirtualAccountHandler } from "@hpl/handlers/virtualAccounts/resetHplVirtualAccountHandler/resetHplVirtualAccountHandler";
-import { HandlerWrapper } from "@ic-wallet-middleware/common";
+import { HandlerWrapper } from "@ic-wallet-kit/common";
 
 export const addHplVirtualAccount = async (form: AddHplVirtualAccountForm) => {
     const result = await HandlerWrapper.callHandler(AddHplVirtualAccountHandler, form);

@@ -1,5 +1,5 @@
 import { HplDbContext } from "@hpl/storage/database";
-import { BaseDataStorage, IdentifierService, ILogger } from "@ic-wallet-middleware/common";
+import { BaseDataStorage, IdentifierService, ILogger } from "@ic-wallet-kit/common";
 
 import "reflect-metadata";
 import { Inject, Service } from "typedi";

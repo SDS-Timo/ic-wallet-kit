@@ -7,7 +7,7 @@ import { HplDictionaryCacheModel } from "@hpl/types/cache/hplDictionaryCacheMode
 import { HplFtAssetCacheModel } from "@hpl/types/cache/hplFtAssetCacheModel";
 import { HplFtSuppliesCacheModel } from "@hpl/types/cache/hplFtSuppliesCacheModel";
 import { HplStateAccountsCacheModel } from "@hpl/types/cache/hplStateAccountsCacheModel";
-import { BaseHandler, ILogger } from "@ic-wallet-middleware/common";
+import { BaseHandler, ILogger } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

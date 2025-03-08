@@ -6,7 +6,7 @@ import { AddHplVirtualAccountForm } from "@hpl/forms";
 import { AddHplVirtualAccountHandler } from "@hpl/handlers/virtualAccounts/addHplVirtualAccountHandler/addHplVirtualAccountHandler";
 import { AddHplVirtualAccountInternalHandler } from "@hpl/internalHandlers";
 import { HplVirtualAccountRepository } from "@hpl/repositories";
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 
 
 

@@ -5,7 +5,7 @@ import { seedToIdentifierService } from "@hpl/__tests_utils/seedToIdentity";
 import { AccountTransferModel } from "@hpl/forms/transfers/hplTransferForm";
 import { TransferHandler } from "@hpl/handlers/transfer/transferHandler/transferHandler";
 import { HplFtAssetCacheDataHandler } from "@hpl/internalHandlers";
-import { LoadType, ValidationError } from "@ic-wallet-middleware/common";
+import { LoadType, ValidationError } from "@ic-wallet-kit/common";
 import { AggregatorDelegate, HPLClient } from "@research-ag/hpl-client";
 import { of, throwError } from "rxjs";
 

@@ -2,7 +2,7 @@ import { AccountTransferModel, GetHplFeeConstantInfo, HplTransferForm, VirtualAc
 import { GetHplFeeConstantHandler } from "@hpl/handlers/transfer/getHplFeeConstantHandler/getHplFeeConstantHandler";
 import { getHplFeeConstant, transfer } from "@hpl/handlers/transfer/transfer.funcs";
 import { TransferHandler } from "@hpl/handlers/transfer/transferHandler/transferHandler";
-import { FormResult, HandlerWrapper, LoadType } from "@ic-wallet-middleware/common";
+import { FormResult, HandlerWrapper, LoadType } from "@ic-wallet-kit/common";
 
 describe("Allowance funcs", () => {
 

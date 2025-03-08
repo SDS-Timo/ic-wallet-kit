@@ -3,7 +3,7 @@ import { IngressActorWrapper } from "@hpl/hplWrappers";
 import { IHplStateCacheRepository } from "@hpl/repositories/cache/hplStateCacheRepository/hplStateCacheRepository";
 import { CanisterService } from "@hpl/service/canisterService";
 import { HplStateRemoteAccountsCacheModel } from "@hpl/types";
-import { BaseCacheDataHandler, CacheDataError, IdentifierService, ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { BaseCacheDataHandler, CacheDataError, IdentifierService, ILogger, LoadType } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

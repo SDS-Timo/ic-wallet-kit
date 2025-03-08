@@ -1,6 +1,6 @@
 import { HplOwnerCacheRepository } from "@hpl/repositories/cache/hplOwnerCacheRepository/hplOwnerCacheRepository";
 import { HplOwnerDataCacheModel } from "@hpl/types/cache/hplOwnerDataCacheModel";
-import { IdentifierService, ILogger, IStorage, jsonStringify } from "@ic-wallet-middleware/common";
+import { IdentifierService, ILogger, IStorage, jsonStringify } from "@ic-wallet-kit/common";
 
 describe("HplOwnerCacheRepository Process Tests", () => {
     let repository: HplOwnerCacheRepository;

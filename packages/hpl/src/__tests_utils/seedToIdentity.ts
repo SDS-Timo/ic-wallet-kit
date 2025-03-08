@@ -1,7 +1,7 @@
 import { HttpAgent, Identity } from "@dfinity/agent";
 import { Ed25519KeyIdentity } from "@dfinity/identity";
 import { Secp256k1KeyIdentity } from "@dfinity/identity-secp256k1";
-import { IdentifierService } from "@ic-wallet-middleware/common";
+import { IdentifierService } from "@ic-wallet-kit/common";
 
 export function seedToIdentity(seed: string): Identity {
     const seedBuf = new Uint8Array(new ArrayBuffer(32));

@@ -2,7 +2,7 @@ import { EditHplAccountForm } from "@hpl/forms/accounts/editHplAccountForm";
 import { EditHplAccountResult } from "@hpl/forms/accounts/editHplAccountResult";
 import { EditHplAssetResult } from "@hpl/forms/editHplAssetResult";
 import { HplAccountRepository } from "@hpl/repositories/persists/hplAccountRepository/hplAccountRepository";
-import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

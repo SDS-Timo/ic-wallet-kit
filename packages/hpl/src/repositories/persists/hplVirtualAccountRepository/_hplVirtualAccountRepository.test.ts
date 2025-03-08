@@ -1,7 +1,7 @@
 import { HplVirtualAccountRepository } from "@hpl/repositories/persists/hplVirtualAccountRepository/hplVirtualAccountRepository";
 import { IHplVirtualAccountDataStorage } from "@hpl/storage/hplVirtualAccountDataStorage";
 import { HplVirtualAccountDataModel } from "@hpl/types/virtualAccounts/hplVirtualAccountDataModel";
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 
 describe("HplVirtualAccountRepository Process Tests", () => {
     let repository: HplVirtualAccountRepository;

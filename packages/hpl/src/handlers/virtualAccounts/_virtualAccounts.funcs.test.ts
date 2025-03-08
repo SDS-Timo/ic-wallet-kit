@@ -7,7 +7,7 @@ import { EditHplVirtualAccountHandler } from "@hpl/handlers/virtualAccounts/edit
 import { GetHplVirtualAccountListHandler } from "@hpl/handlers/virtualAccounts/getHplVirtualAccountListHandler/getHplVirtualAccountListHandler";
 import { ResetHplVirtualAccountHandler } from "@hpl/handlers/virtualAccounts/resetHplVirtualAccountHandler/resetHplVirtualAccountHandler";
 import { addHplVirtualAccount, checkLinkCode, deleteHplVirtualAccount, editHplVirtualAccount, getHplVirtualAccountList, resetHplVirtualAccount } from "@hpl/handlers/virtualAccounts/virtualAccounts.funcs";
-import { FormResult, HandlerWrapper, LoadType } from "@ic-wallet-middleware/common";
+import { FormResult, HandlerWrapper, LoadType } from "@ic-wallet-kit/common";
 
 describe("Allowance funcs", () => {
 

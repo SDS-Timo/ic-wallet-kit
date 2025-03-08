@@ -2,7 +2,7 @@ import { HplTransferForm, HplTransferResult } from "@hpl/forms/transfers/hplTran
 import { HplFtAssetCacheDataHandler } from "@hpl/internalHandlers";
 import { CanisterService } from "@hpl/service";
 import { TransferAccountReferenceProvider } from "@hpl/utils/transferProvider/transferProvider";
-import { AmountProvider, BaseHandler, getPropertyName, IdentifierService, ILogger, LoadType, ValidationError } from "@ic-wallet-middleware/common";
+import { AmountProvider, BaseHandler, getPropertyName, IdentifierService, ILogger, LoadType, ValidationError } from "@ic-wallet-kit/common";
 import { bigIntReplacer, HPLClient, SimpleTransferStatus } from "@research-ag/hpl-client";
 import "reflect-metadata";
 import { catchError, lastValueFrom, map, of } from "rxjs";

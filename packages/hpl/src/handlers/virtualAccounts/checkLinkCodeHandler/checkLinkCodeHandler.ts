@@ -2,7 +2,7 @@ import { CheckLinkCodeForm, CheckLinkCodeResult } from "@hpl/forms";
 import { IngressActorWrapper, OwnersActorWrapper } from "@hpl/hplWrappers";
 import { HplAssetRepository } from "@hpl/repositories";
 import { CanisterService } from "@hpl/service";
-import { BaseHandler, getPropertyName, IdentifierService, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, IdentifierService, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

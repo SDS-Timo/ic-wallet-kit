@@ -4,7 +4,7 @@ import { HplMintCacheDataInfo } from "@hpl/forms";
 import { HplMintCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplMintCacheDataHandler/hplMintCacheDataHandler";
 import { HplMintCacheRepository } from "@hpl/repositories";
 import { HplMintCacheModel } from "@hpl/types";
-import { FormResult, LoadType } from "@ic-wallet-middleware/common";
+import { FormResult, LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit HplAccountCacheDataHandler tests", () => {
     const testData = [

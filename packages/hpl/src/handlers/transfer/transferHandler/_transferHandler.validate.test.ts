@@ -6,7 +6,7 @@ import { testValidate, testValidateDefinition } from "@hpl/__tests_utils/testDef
 import { AccountTransferModel } from "@hpl/forms";
 import { TransferHandler } from "@hpl/handlers/transfer/transferHandler/transferHandler";
 import { HplFtAssetCacheDataHandler } from "@hpl/internalHandlers";
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 
 
 

@@ -1,4 +1,4 @@
-import { Amount } from "@ic-wallet-middleware/common";
+import { Amount } from "@ic-wallet-kit/common";
 
 export interface HplTransferForm {
     txFrom: ITransferModel;

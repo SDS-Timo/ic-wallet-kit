@@ -4,7 +4,7 @@ import { EditHplVirtualAccountForm } from "@hpl/forms";
 import { EditHplVirtualAccountHandler } from "@hpl/handlers/virtualAccounts/editHplVirtualAccountHandler/editHplVirtualAccountHandler";
 import { EditHplVirtualAccountInternalHandler } from "@hpl/internalHandlers";
 import { HplVirtualAccountRepository } from "@hpl/repositories";
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 
 describe("Unit EditHplVirtualAccountHandler process tests", () => {
 

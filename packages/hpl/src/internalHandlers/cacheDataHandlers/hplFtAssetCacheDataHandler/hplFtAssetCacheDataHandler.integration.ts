@@ -4,7 +4,7 @@ import { seedToIdentifierService } from "@hpl/__tests_utils/seedToIdentity";
 import { HplFtAssetCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplFtAssetCacheDataHandler/hplFtAssetCacheDataHandler";
 import { HplDataCacheRepository } from "@hpl/repositories";
 import { HplDataCacheModel } from "@hpl/types";
-import { FormResult, LoadType } from "@ic-wallet-middleware/common";
+import { FormResult, LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit HplAccountCacheDataHandler tests", () => {
     const testData = [

@@ -5,7 +5,7 @@ import { GetHplAccountListHandler } from "@hpl/handlers/accounts/getHplAccountLi
 import { LoadHplAccountsHandler } from "@hpl/internalHandlers";
 import { HplAccountRepository, HplVirtualAccountRepository } from "@hpl/repositories";
 import { HplAccount, HplAccountDataModel, HplVirtualAccountDataModel } from "@hpl/types";
-import { LoadType } from "@ic-wallet-middleware/common";
+import { LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit GetHplAccountListHandler process tests", () => {
 

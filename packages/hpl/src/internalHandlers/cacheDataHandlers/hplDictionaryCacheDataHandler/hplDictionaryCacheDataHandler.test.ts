@@ -6,7 +6,7 @@ import { DictionaryActorWrapper } from "@hpl/hplWrappers";
 import { HplDictionaryCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplDictionaryCacheDataHandler/hplDictionaryCacheDataHandler";
 import { HplDictionaryCacheRepository } from "@hpl/repositories";
 import { HplDictionaryDataCacheModel } from "@hpl/types";
-import { CacheDataError, LoadType } from "@ic-wallet-middleware/common";
+import { CacheDataError, LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit HplAccountsStateCacheDataHandler tests", () => {
 

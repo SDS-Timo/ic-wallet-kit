@@ -2,7 +2,7 @@ import { HplContactRepository } from "@hpl/repositories/persists/hplContactRepos
 import { IHplContactDataStorage } from "@hpl/storage/hplContactDataStorage";
 import { HplContactDataModel } from "@hpl/types";
 import { HplContactRemoteDataModel } from "@hpl/types/contacts/hplContactRemoteDataModel";
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 
 describe("HplContactRepository Process Tests", () => {
     let repository: HplContactRepository;

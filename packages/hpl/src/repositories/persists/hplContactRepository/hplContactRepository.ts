@@ -1,7 +1,7 @@
 import { IHplContactDataStorage } from "@hpl/storage/hplContactDataStorage";
 import { HplContactDataModel } from "@hpl/types";
 import { HplContactRemoteDataModel } from "@hpl/types/contacts/hplContactRemoteDataModel";
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

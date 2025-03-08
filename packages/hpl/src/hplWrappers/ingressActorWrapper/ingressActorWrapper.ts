@@ -6,7 +6,7 @@ import { FtAssetInfo, HplAccountCacheModel, HplStateVirtualAccountsCacheModel, H
 import { AccountType } from "@hpl/types/accounts/accountType";
 import { HplStateCacheModel } from "@hpl/types/cache/hplStateCacheModel";
 import { State } from "@hpl/types/cache/state";
-import { ILogger } from "@ic-wallet-middleware/common";
+import { ILogger } from "@ic-wallet-kit/common";
 import { IngressActorError } from "../../errors/ingressActor.error";
 
 export class IngressActorWrapper {

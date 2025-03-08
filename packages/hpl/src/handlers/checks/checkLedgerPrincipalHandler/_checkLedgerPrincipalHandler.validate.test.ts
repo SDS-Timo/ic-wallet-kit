@@ -3,7 +3,7 @@ import { MockLogger } from "@hpl/__tests_utils/mockLogger";
 import { seedToIdentifierService } from "@hpl/__tests_utils/seedToIdentity";
 import { testValidate, testValidateDefinition } from "@hpl/__tests_utils/testDefinition";
 import { CheckLedgerPrincipalHandler } from "@hpl/handlers/checks/checkLedgerPrincipalHandler/checkLedgerPrincipalHandler";
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 
 describe("Unit CheckLedgerPrincipalHandler validate tests", () => {
 

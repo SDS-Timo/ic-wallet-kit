@@ -1,4 +1,4 @@
-import { ILoadForce } from "@ic-wallet-middleware/common";
+import { ILoadForce } from "@ic-wallet-kit/common";
 
 export interface LoadHplAccountForm extends ILoadForce {
 }

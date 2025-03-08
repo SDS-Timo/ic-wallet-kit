@@ -7,7 +7,7 @@ import { IngressActorWrapper } from "@hpl/hplWrappers";
 import { HplVirtualAccountStateCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplVirtualAccountStateCacheDataHandler/hplVirtualAccountStateCacheDataHandler";
 import { ResetHplVirtualAccountInternalHandler } from "@hpl/internalHandlers/virtualAccountHandlers/resetHplVirtualAccountInternalHandler/resetHplVirtualAccountInternalHandler";
 import { HplStateVirtualAccountsCacheModel } from "@hpl/types";
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 
 describe("Unit ResetHplVirtualAccountInternalHandler tests", () => {
     const testData = [

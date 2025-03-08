@@ -5,7 +5,7 @@ import { HplCacheDataInfo } from "@hpl/forms";
 import { IngressActorWrapper } from "@hpl/hplWrappers";
 import { HplFeeConstantCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplFeeConstantCacheDataHandler/hplFeeConstantCacheDataHandler";
 import { HplFeeConstantCacheRepository } from "@hpl/repositories";
-import { CacheDataError, LoadType } from "@ic-wallet-middleware/common";
+import { CacheDataError, LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit HplFeeConstantCacheDataHandler tests", () => {
 

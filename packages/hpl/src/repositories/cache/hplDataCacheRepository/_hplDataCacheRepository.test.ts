@@ -1,6 +1,6 @@
 import { HplDataCacheRepository } from "@hpl/repositories/cache/hplDataCacheRepository/hplDataCacheRepository";
 import { HplDataCacheModel } from "@hpl/types";
-import { IdentifierService, ILogger, IStorage, jsonStringify } from "@ic-wallet-middleware/common";
+import { IdentifierService, ILogger, IStorage, jsonStringify } from "@ic-wallet-kit/common";
 
 describe("HplDataCacheRepository Process Tests", () => {
     let repository: HplDataCacheRepository;

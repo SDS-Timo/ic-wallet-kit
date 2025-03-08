@@ -3,7 +3,7 @@ import { IngressActorWrapper } from "@hpl/hplWrappers";
 import { IHplDataCacheRepository } from "@hpl/repositories";
 import { CanisterService } from "@hpl/service";
 import { AccountType, HplAccount } from "@hpl/types";
-import { BaseHandler, getPropertyName, IdentifierService, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, IdentifierService, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

@@ -1,7 +1,7 @@
 import { DeleteHplVirtualAccountForm, EmptyHplResult } from "@hpl/forms";
 import { DeleteHplVirtualAccountInternalHandler } from "@hpl/internalHandlers";
 import { HplVirtualAccountRepository } from "@hpl/repositories";
-import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

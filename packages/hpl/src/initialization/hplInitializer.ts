@@ -3,7 +3,7 @@ import { HplDataCacheRepository, HplDictionaryCacheRepository, HplMintCacheRepos
 import { CanisterService } from "@hpl/service";
 import { HplAccountDataStorage, HplAssetDataStorage, HplContactDataStorage, HplDbContext, HplVirtualAccountDataStorage } from "@hpl/storage";
 import { HplRefreshService } from "@hpl/sync";
-import { IdentifierService, ILogger, IStorage, RefreshServiceConfiguration, ReplicationConfiguration } from "@ic-wallet-middleware/common";
+import { IdentifierService, ILogger, IStorage, RefreshServiceConfiguration, ReplicationConfiguration } from "@ic-wallet-kit/common";
 
 import { RxStorage } from "rxdb";
 import Container from "typedi";

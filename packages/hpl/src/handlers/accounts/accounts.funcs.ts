@@ -2,7 +2,7 @@ import { AddHplAccountForm, EditHplAccountForm, GetHplAccountListInfo } from "@h
 import { AddHplAccountHandler } from "@hpl/handlers/accounts/addHplAccountHandler/addHplAccountHandler";
 import { EditHplAccountHandler } from "@hpl/handlers/accounts/editHplAccountHandler/editHplAccountHandler";
 import { GetHplAccountListHandler } from "@hpl/handlers/accounts/getHplAccountListHandler/getHplAccountListHandler";
-import { HandlerWrapper } from "@ic-wallet-middleware/common";
+import { HandlerWrapper } from "@ic-wallet-kit/common";
 
 
 export const getHplAccountList = async (form: GetHplAccountListInfo) => {

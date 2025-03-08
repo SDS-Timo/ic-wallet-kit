@@ -1,7 +1,7 @@
 import { GetHplVirtualAccountListInfo, GetHplVirtualAccountListResult } from "@hpl/forms";
 import { LoadHplVirtualAccountsHandler } from "@hpl/internalHandlers";
 import { HplVirtualAccountRepository } from "@hpl/repositories/persists/hplVirtualAccountRepository/hplVirtualAccountRepository";
-import { BaseHandler, ILogger } from "@ic-wallet-middleware/common";
+import { BaseHandler, ILogger } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

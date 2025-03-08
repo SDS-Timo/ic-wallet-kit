@@ -7,7 +7,7 @@ import { IngressActorWrapper } from "@hpl/hplWrappers";
 import { HplMintCacheDataHandler, HplOwnerCacheDataHandler, HplVirtualAccountCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers";
 import { EditHplVirtualAccountInternalHandler } from "@hpl/internalHandlers/virtualAccountHandlers/editHplVirtualAccountInternalHandler/editHplVirtualAccountInternalHandler";
 import { HplMintCacheModel, HplOwnerDataCacheModel, HplVirtualAccount, HplVirtualAccountDataModel } from "@hpl/types";
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 
 describe("Unit EditHplVirtualAccountInternalHandler tests", () => {
     const testData = [

@@ -3,7 +3,7 @@ import { GetHplAssetListResult } from "@hpl/forms/getHplAssetListResult";
 import { LoadHplAssetHandler } from "@hpl/internalHandlers";
 import { HplAssetRepository } from "@hpl/repositories/persists/hplAssetRepository/hplAssetRepository";
 import { HplAsset } from "@hpl/types";
-import { BaseHandler, ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { BaseHandler, ILogger, LoadType } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

@@ -1,5 +1,5 @@
 import { HplFeeConstantCacheRepository } from "@hpl/repositories/cache/hplFeeConstantCacheRepository/hplFeeConstantCacheRepository";
-import { IdentifierService, ILogger, IStorage, jsonStringify } from "@ic-wallet-middleware/common";
+import { IdentifierService, ILogger, IStorage, jsonStringify } from "@ic-wallet-kit/common";
 
 describe("HplFeeConstantCacheRepository Process Tests", () => {
     let repository: HplFeeConstantCacheRepository;

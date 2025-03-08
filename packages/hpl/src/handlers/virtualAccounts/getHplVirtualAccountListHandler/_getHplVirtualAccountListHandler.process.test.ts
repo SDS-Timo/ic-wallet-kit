@@ -3,7 +3,7 @@ import { MockLogger } from "@hpl/__tests_utils/mockLogger";
 import { GetHplVirtualAccountListHandler } from "@hpl/handlers/virtualAccounts/getHplVirtualAccountListHandler/getHplVirtualAccountListHandler";
 import { LoadHplVirtualAccountsHandler } from "@hpl/internalHandlers";
 import { HplVirtualAccountRepository } from "@hpl/repositories";
-import { LoadType } from "@ic-wallet-middleware/common";
+import { LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit GetHplVirtualAccountListHandler tests", () => {
     const validData = {

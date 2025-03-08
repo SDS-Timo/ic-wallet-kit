@@ -5,7 +5,7 @@ import { testValidate, testValidateDefinition } from "@hpl/__tests_utils/testDef
 import { GetHplContactAvailableLinkInfo } from "@hpl/forms";
 import { GetHplContactAvailableLinkHandler } from "@hpl/handlers/contacts/getHplContactAvailableLinkHandler/getHplContactAvailableLinkHandler";
 import { GetHplContactRemotesHandler } from "@hpl/internalHandlers";
-import { getPropertyName, LoadType, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, LoadType, ValidationError } from "@ic-wallet-kit/common";
 
 
 

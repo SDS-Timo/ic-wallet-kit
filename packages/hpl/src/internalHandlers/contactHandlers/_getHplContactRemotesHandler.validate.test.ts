@@ -4,7 +4,7 @@ import { MockLogger } from "@hpl/__tests_utils/mockLogger";
 import { testValidate, testValidateDefinition } from "@hpl/__tests_utils/testDefinition";
 import { GetHplContactRemotesHandler, HplDictionaryCacheDataHandler, HplOwnerCacheDataHandler, HplRemoteAccountsStateCacheDataHandler, HplRemotesCacheDataHandler } from "@hpl/internalHandlers";
 import { HplAssetRepository } from "@hpl/repositories";
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 
 
 

@@ -6,7 +6,7 @@ import { AddHplContactRemotesHandler } from "@hpl/handlers/contacts/addHplContac
 import { GetHplContactRemotesHandler } from "@hpl/internalHandlers";
 import { HplContactRepository } from "@hpl/repositories/persists/hplContactRepository/hplContactRepository";
 import { HplContactDataModel, HplRemote } from "@hpl/types";
-import { LoadType } from "@ic-wallet-middleware/common";
+import { LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit AddHplContactRemotesHandler tests", () => {
     const testData = [

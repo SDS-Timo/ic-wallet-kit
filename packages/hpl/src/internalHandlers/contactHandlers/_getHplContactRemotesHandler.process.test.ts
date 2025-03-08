@@ -11,7 +11,7 @@ import {
 } from "@hpl/internalHandlers";
 import { HplAssetRepository } from "@hpl/repositories";
 import { HplDictionaryCacheModel, HplOwnerDataCacheModel, HplStateRemoteAccountsCacheModel } from "@hpl/types";
-import { LoadType } from "@ic-wallet-middleware/common";
+import { LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit GetHplContactRemotesHandler tests", () => {
     const remotesCacheData = {

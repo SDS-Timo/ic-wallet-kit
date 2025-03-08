@@ -6,7 +6,7 @@ import { IngressActorWrapper } from "@hpl/hplWrappers";
 import { HplFtSuppliesStateCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplFtSuppliesStateCacheDataHandler/hplFtSuppliesStateCacheDataHandler";
 import { HplStateCacheRepository } from "@hpl/repositories";
 import { HplFtSuppliesCacheModel, HplStateAccountsCacheModel, HplStateCacheModel } from "@hpl/types";
-import { CacheDataError, LoadType } from "@ic-wallet-middleware/common";
+import { CacheDataError, LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit HplFtSuppliesStateCacheDataHandler tests", () => {
 

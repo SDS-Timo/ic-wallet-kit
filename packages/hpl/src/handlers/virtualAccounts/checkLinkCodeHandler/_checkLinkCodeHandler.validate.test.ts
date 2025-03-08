@@ -6,7 +6,7 @@ import { testValidate, testValidateDefinition } from "@hpl/__tests_utils/testDef
 import { CheckLinkCodeForm } from "@hpl/forms";
 import { CheckLinkCodeHandler } from "@hpl/handlers/virtualAccounts/checkLinkCodeHandler/checkLinkCodeHandler";
 import { HplAssetRepository } from "@hpl/repositories";
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 
 
 

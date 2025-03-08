@@ -2,7 +2,7 @@ import { EditHplAssetForm, GetHplAssetListInfo } from "@hpl/forms";
 import { editHplAsset, getHplAssetList } from "@hpl/handlers/assets/assets.funcs";
 import { EditHplAssetHandler } from "@hpl/handlers/assets/editHplAssetHandler/editHplAssetHandler";
 import { GetHplAssetListHandler } from "@hpl/handlers/assets/getHplAssetListHandler/getHplAssetListHandler";
-import { FormResult, HandlerWrapper, LoadType } from "@ic-wallet-middleware/common";
+import { FormResult, HandlerWrapper, LoadType } from "@ic-wallet-kit/common";
 
 describe("Allowance funcs", () => {
 

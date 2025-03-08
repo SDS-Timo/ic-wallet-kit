@@ -1,5 +1,5 @@
 import { RemoteAccountSelectorCat, RemoteAccountSelectorId, RemoteAccountSelectorIdRange } from "@hpl/types";
-import { ILoadForce } from "@ic-wallet-middleware/common";
+import { ILoadForce } from "@ic-wallet-kit/common";
 
 export interface HplStateCacheDataInfo extends ILoadForce {
   ftAssetCount: bigint;

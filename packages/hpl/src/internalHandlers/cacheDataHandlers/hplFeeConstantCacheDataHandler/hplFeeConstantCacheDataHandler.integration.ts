@@ -3,7 +3,7 @@ import { MockLogger } from "@hpl/__tests_utils/mockLogger";
 import { phraseToIdentifierService } from "@hpl/__tests_utils/seedToIdentity";
 import { HplFeeConstantCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplFeeConstantCacheDataHandler/hplFeeConstantCacheDataHandler";
 import { HplFeeConstantCacheRepository } from "@hpl/repositories";
-import { LoadType } from "@ic-wallet-middleware/common";
+import { LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit HplFeeConstantCacheDataHandler tests", () => {
     const testData = [

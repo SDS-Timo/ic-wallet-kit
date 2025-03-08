@@ -2,7 +2,7 @@ import { itForeach } from "@hpl/__tests_utils/itForeach";
 import { MockLogger } from "@hpl/__tests_utils/mockLogger";
 import { EditHplAccountHandler } from "@hpl/handlers/accounts/editHplAccountHandler/editHplAccountHandler";
 import { HplAccountRepository } from "@hpl/repositories";
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 
 describe("Unit EditHplAccountHandler process tests", () => {
     const form = {

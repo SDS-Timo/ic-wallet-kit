@@ -4,7 +4,7 @@ import { HplStateCacheDataInfo } from "@hpl/forms";
 import { HplAdminStateCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplAdminStateCacheDataHandlers/hplAdminStateCacheDataHandler";
 import { HplStateCacheRepository } from "@hpl/repositories";
 import { CanisterService } from "@hpl/service";
-import { FormResult, LoadType } from "@ic-wallet-middleware/common";
+import { FormResult, LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit HplFtSuppliesStateCacheDataHandler tests", () => {
     const testData = [

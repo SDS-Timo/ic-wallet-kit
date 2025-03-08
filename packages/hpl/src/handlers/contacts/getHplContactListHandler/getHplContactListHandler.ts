@@ -5,7 +5,7 @@ import { GetHplContactListInfo, GetHplContactListResult } from "@hpl/forms";
 import { GetHplContactRemotesHandler } from "@hpl/internalHandlers";
 import { HplContactRepository } from "@hpl/repositories/persists/hplContactRepository/hplContactRepository";
 import { HplContact } from "@hpl/types";
-import { BaseHandler, ILogger } from "@ic-wallet-middleware/common";
+import { BaseHandler, ILogger } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

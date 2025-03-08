@@ -5,7 +5,7 @@ import { testValidate, testValidateDefinition } from "@hpl/__tests_utils/testDef
 import { RemoveHplContactLinkForm } from "@hpl/forms";
 import { RemoveHplContactLinkHandler } from "@hpl/handlers/contacts/removeHplContactLinkHandler/removeHplContactLinkHandler";
 import { HplContactRepository } from "@hpl/repositories/persists/hplContactRepository/hplContactRepository";
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 
 
 

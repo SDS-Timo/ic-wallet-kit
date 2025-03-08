@@ -6,7 +6,7 @@ import { IngressActorWrapper } from "@hpl/hplWrappers";
 import { HplRemoteAccountsStateCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplRemoteAccountsStateCacheDataHandler/hplRemoteAccountsStateCacheDataHandler";
 import { HplStateCacheRepository } from "@hpl/repositories";
 import { HplStateAccountsCacheModel, HplStateCacheModel, HplStateRemoteAccountsCacheModel } from "@hpl/types";
-import { CacheDataError, LoadType } from "@ic-wallet-middleware/common";
+import { CacheDataError, LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit HplRemoteAccountsStateCacheDataHandler tests", () => {
 

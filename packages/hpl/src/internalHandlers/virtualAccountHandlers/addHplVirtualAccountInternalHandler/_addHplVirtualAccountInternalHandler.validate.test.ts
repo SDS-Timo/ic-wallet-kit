@@ -6,7 +6,7 @@ import { seedToIdentifierService } from "@hpl/__tests_utils/seedToIdentity";
 import { testValidate, testValidateDefinition } from "@hpl/__tests_utils/testDefinition";
 import { AddHplVirtualAccountInternalHandler, HplMintCacheDataHandler, HplOwnerCacheDataHandler } from "@hpl/internalHandlers";
 import { HplDataCacheRepository } from "@hpl/repositories";
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 
 
 

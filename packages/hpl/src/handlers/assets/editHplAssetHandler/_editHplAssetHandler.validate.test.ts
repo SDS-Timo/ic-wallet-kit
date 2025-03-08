@@ -3,7 +3,7 @@ import { MockLogger } from "@hpl/__tests_utils/mockLogger";
 import { testValidate, testValidateDefinition } from "@hpl/__tests_utils/testDefinition";
 import { EditHplAssetHandler } from "@hpl/handlers/assets/editHplAssetHandler/editHplAssetHandler";
 import { HplAssetRepository } from "@hpl/repositories";
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 
 describe("Unit EditHplAssetHandler validate tests", () => {
 

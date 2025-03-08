@@ -1,6 +1,6 @@
 import { IHplVirtualAccountDataStorage } from "@hpl/storage/hplVirtualAccountDataStorage";
 import { HplVirtualAccountDataModel } from "@hpl/types/virtualAccounts/hplVirtualAccountDataModel";
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

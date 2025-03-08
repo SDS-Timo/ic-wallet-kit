@@ -4,7 +4,7 @@ import { testValidate, testValidateDefinition } from "@hpl/__tests_utils/testDef
 import { AddHplAccountHandler } from "@hpl/handlers/accounts/addHplAccountHandler/addHplAccountHandler";
 import { AddHplAccountInternalHandler } from "@hpl/internalHandlers";
 import { HplAccountRepository } from "@hpl/repositories";
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 
 
 

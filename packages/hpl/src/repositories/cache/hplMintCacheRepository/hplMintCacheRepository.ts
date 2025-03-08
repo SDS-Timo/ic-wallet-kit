@@ -1,6 +1,6 @@
 import { HplMintCacheModel } from "@hpl/types/cache/hplMintCacheModel";
 import { HplMintDataCacheModel } from "@hpl/types/cache/hplMintDataCacheModel";
-import { IdentifierService, ILocalCacheStorage, ILogger, IStorage, jsonParse, jsonStringify, ValidationError } from "@ic-wallet-middleware/common";
+import { IdentifierService, ILocalCacheStorage, ILogger, IStorage, jsonParse, jsonStringify, ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

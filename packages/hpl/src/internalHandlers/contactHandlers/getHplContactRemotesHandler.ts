@@ -4,7 +4,7 @@ import { HplRemotesCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandl
 import { HplAssetRepository } from "@hpl/repositories";
 import { HplDictionaryCacheModel, HplRemote, HplStateRemoteAccountsCacheModel } from "@hpl/types";
 import { HplRemoteCacheModel } from "@hpl/types/cache/hplContactCacheModel";
-import { BaseHandler, getPropertyName, getPxlCode, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, getPxlCode, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

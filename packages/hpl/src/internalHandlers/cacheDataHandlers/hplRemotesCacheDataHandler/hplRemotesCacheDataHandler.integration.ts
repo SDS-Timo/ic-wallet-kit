@@ -4,7 +4,7 @@ import { MockLogger } from "@hpl/__tests_utils/mockLogger";
 import { phraseToIdentifierService } from "@hpl/__tests_utils/seedToIdentity";
 import { HplRemotesCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplRemotesCacheDataHandler/hplRemotesCacheDataHandler";
 import { HplDataCacheRepository } from "@hpl/repositories";
-import { FormResult, LoadType } from "@ic-wallet-middleware/common";
+import { FormResult, LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit HplVirtualAccountsStateCacheDataHandler tests", () => {
     const testData = [

@@ -1,7 +1,7 @@
 import { HplMintCacheRepository } from "@hpl/repositories/cache/hplMintCacheRepository/hplMintCacheRepository";
 import { HplMintCacheModel } from "@hpl/types/cache/hplMintCacheModel";
 import { HplMintDataCacheModel } from "@hpl/types/cache/hplMintDataCacheModel";
-import { IdentifierService, ILogger, IStorage, jsonStringify, ValidationError } from "@ic-wallet-middleware/common";
+import { IdentifierService, ILogger, IStorage, jsonStringify, ValidationError } from "@ic-wallet-kit/common";
 
 describe("HplMintCacheRepository Process Tests", () => {
     let repository: HplMintCacheRepository;

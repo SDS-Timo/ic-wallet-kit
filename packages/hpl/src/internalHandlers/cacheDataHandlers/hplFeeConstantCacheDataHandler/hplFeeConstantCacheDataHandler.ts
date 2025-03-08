@@ -2,7 +2,7 @@ import { HplFeeConstantCacheDataInfo } from "@hpl/forms";
 import { IngressActorWrapper } from "@hpl/hplWrappers";
 import { IHplFeeConstantCacheRepository } from "@hpl/repositories";
 import { CanisterService } from "@hpl/service";
-import { BaseCacheDataHandler, CacheDataError, IdentifierService, ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { BaseCacheDataHandler, CacheDataError, IdentifierService, ILogger, LoadType } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

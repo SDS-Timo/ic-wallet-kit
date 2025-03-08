@@ -5,7 +5,7 @@ import { EditHplContactForm, EditHplContactResult } from "@hpl/forms";
 import { GetHplContactRemotesHandler } from "@hpl/internalHandlers";
 import { HplContactRepository } from "@hpl/repositories/persists/hplContactRepository/hplContactRepository";
 import { HplContactRemoteDataModel, HplRemote } from "@hpl/types";
-import { BaseHandler, getPropertyName, ILogger, LoadType, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, ILogger, LoadType, ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

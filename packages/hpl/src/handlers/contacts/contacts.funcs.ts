@@ -6,7 +6,7 @@ import { GetHplContactAvailableLinkHandler } from "@hpl/handlers/contacts/getHpl
 import { GetHplContactListHandler } from "@hpl/handlers/contacts/getHplContactListHandler/getHplContactListHandler";
 import { RemoveHplContactHandler } from "@hpl/handlers/contacts/removeHplContactHandler/removeHplContactHandler";
 import { RemoveHplContactLinkHandler } from "@hpl/handlers/contacts/removeHplContactLinkHandler/removeHplContactLinkHandler";
-import { HandlerWrapper } from "@ic-wallet-middleware/common";
+import { HandlerWrapper } from "@ic-wallet-kit/common";
 
 export const getHplContactList = async (form: GetHplContactListInfo) => {
     const result = await HandlerWrapper.callHandler(GetHplContactListHandler, form);

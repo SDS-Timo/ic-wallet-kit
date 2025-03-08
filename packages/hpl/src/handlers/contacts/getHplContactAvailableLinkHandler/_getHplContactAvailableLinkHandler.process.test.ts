@@ -4,7 +4,7 @@ import { MockLogger } from "@hpl/__tests_utils/mockLogger";
 import { GetHplContactAvailableLinkHandler } from "@hpl/handlers/contacts/getHplContactAvailableLinkHandler/getHplContactAvailableLinkHandler";
 import { GetHplContactRemotesHandler } from "@hpl/internalHandlers";
 import { HplRemote } from "@hpl/types";
-import { LoadType } from "@ic-wallet-middleware/common";
+import { LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit GetHplContactAvailableLinkHandler tests", () => {
     const testData = [

@@ -2,7 +2,7 @@ import { EditHplAccountForm } from "@hpl/forms/accounts/editHplAccountForm";
 import { HplAccountRepository } from "@hpl/repositories";
 import { IHplAccountDataStorage } from "@hpl/storage";
 import { HplAccountDataModel } from "@hpl/types";
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 
 
 describe("Unit HplAccountRepository tests", () => {

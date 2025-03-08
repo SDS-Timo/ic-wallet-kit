@@ -6,7 +6,7 @@ import { IngressActorWrapper } from "@hpl/hplWrappers";
 import { HplFtAssetCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplFtAssetCacheDataHandler/hplFtAssetCacheDataHandler";
 import { HplDataCacheRepository } from "@hpl/repositories";
 import { HplDataCacheModel } from "@hpl/types";
-import { CacheDataError, LoadType } from "@ic-wallet-middleware/common";
+import { CacheDataError, LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit HplFtAssetCacheDataHandler tests", () => {
 

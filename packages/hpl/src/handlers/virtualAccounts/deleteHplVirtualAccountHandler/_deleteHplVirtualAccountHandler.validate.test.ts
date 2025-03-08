@@ -5,7 +5,7 @@ import { DeleteHplVirtualAccountForm } from "@hpl/forms";
 import { DeleteHplVirtualAccountHandler } from "@hpl/handlers/virtualAccounts/deleteHplVirtualAccountHandler/deleteHplVirtualAccountHandler";
 import { DeleteHplVirtualAccountInternalHandler } from "@hpl/internalHandlers";
 import { HplVirtualAccountRepository } from "@hpl/repositories";
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 
 
 

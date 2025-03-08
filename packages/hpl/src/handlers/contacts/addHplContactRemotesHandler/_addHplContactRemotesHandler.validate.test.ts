@@ -5,7 +5,7 @@ import { testValidate, testValidateDefinition } from "@hpl/__tests_utils/testDef
 import { AddHplContactRemotesHandler } from "@hpl/handlers/contacts/addHplContactRemotesHandler/addHplContactRemotesHandler";
 import { GetHplContactRemotesHandler } from "@hpl/internalHandlers";
 import { HplContactRepository } from "@hpl/repositories/persists/hplContactRepository/hplContactRepository";
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 
 
 

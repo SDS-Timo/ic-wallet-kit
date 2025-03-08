@@ -1,6 +1,6 @@
 
 import { HplDbContext, IHplAccountDataStorage, IHplAssetDataStorage, IHplContactDataStorage, IHplVirtualAccountDataStorage } from "@hpl/storage";
-import { BaseRxDbDocument, createCanisterFunc, IdentifierService, ILogger, ReplicationCollectionDetails, ReplicationConfiguration, ReplicationProcessor } from "@ic-wallet-middleware/common";
+import { BaseRxDbDocument, createCanisterFunc, IdentifierService, ILogger, ReplicationCollectionDetails, ReplicationConfiguration, ReplicationProcessor } from "@ic-wallet-kit/common";
 
 
 import "reflect-metadata";

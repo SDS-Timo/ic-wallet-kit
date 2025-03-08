@@ -2,7 +2,7 @@ import { HplMintCacheDataInfo } from "@hpl/forms/hplMintCacheDataInfo";
 import { HplMintActorWrapper } from "@hpl/hplWrappers";
 import { IHplMintCacheRepository } from "@hpl/repositories/cache/hplMintCacheRepository/hplMintCacheRepository";
 import { HplMintCacheModel } from "@hpl/types/cache/hplMintCacheModel";
-import { BaseCacheDataHandler, CacheDataError, IdentifierService, ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { BaseCacheDataHandler, CacheDataError, IdentifierService, ILogger, LoadType } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

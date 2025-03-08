@@ -3,7 +3,7 @@ import { GetHplAccountListResult } from "@hpl/forms/accounts/getHplAccountListRe
 import { LoadHplAccountsHandler } from "@hpl/internalHandlers";
 import { HplVirtualAccountRepository } from "@hpl/repositories";
 import { HplAccountRepository } from "@hpl/repositories/persists/hplAccountRepository/hplAccountRepository";
-import { BaseHandler, ILogger } from "@ic-wallet-middleware/common";
+import { BaseHandler, ILogger } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

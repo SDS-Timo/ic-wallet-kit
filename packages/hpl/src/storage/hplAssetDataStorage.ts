@@ -1,6 +1,6 @@
 import { RxBaseDataStorage } from "@hpl/storage/base/rxBaseDataStorage";
 import { HplAssetDataModel } from "@hpl/types/assets/hplAssetDataModel";
-import { IBaseDataStorage } from "@ic-wallet-middleware/common";
+import { IBaseDataStorage } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Service } from "typedi";
 

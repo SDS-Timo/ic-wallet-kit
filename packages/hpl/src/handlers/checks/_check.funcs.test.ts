@@ -2,7 +2,7 @@ import { CheckDictionaryPrincipalForm, CheckLedgerPrincipalForm } from "@hpl/for
 import { checkDictionaryPrincipal, checkLedgerPrincipal } from "@hpl/handlers/checks/check.funcs";
 import { CheckDictionaryPrincipalHandler } from "@hpl/handlers/checks/checkDictionaryPrincipalHandler/checkDictionaryPrincipalHandler";
 import { CheckLedgerPrincipalHandler } from "@hpl/handlers/checks/checkLedgerPrincipalHandler/checkLedgerPrincipalHandler";
-import { FormResult, HandlerWrapper } from "@ic-wallet-middleware/common";
+import { FormResult, HandlerWrapper } from "@ic-wallet-kit/common";
 
 describe("Allowance funcs", () => {
 

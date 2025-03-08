@@ -8,7 +8,7 @@ import { GetHplContactAvailableLinkHandler } from "@hpl/handlers/contacts/getHpl
 import { GetHplContactListHandler } from "@hpl/handlers/contacts/getHplContactListHandler/getHplContactListHandler";
 import { RemoveHplContactHandler } from "@hpl/handlers/contacts/removeHplContactHandler/removeHplContactHandler";
 import { RemoveHplContactLinkHandler } from "@hpl/handlers/contacts/removeHplContactLinkHandler/removeHplContactLinkHandler";
-import { FormResult, HandlerWrapper, LoadType } from "@ic-wallet-middleware/common";
+import { FormResult, HandlerWrapper, LoadType } from "@ic-wallet-kit/common";
 
 describe("Allowance funcs", () => {
 

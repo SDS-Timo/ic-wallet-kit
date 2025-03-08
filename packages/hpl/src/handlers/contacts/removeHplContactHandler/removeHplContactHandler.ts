@@ -2,7 +2,7 @@
 
 import { RemoveHplContactForm, RemoveHplContactResult } from "@hpl/forms";
 import { HplContactRepository } from "@hpl/repositories/persists/hplContactRepository/hplContactRepository";
-import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

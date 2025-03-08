@@ -1,4 +1,4 @@
-import { BaseHandler, getPropertyName, IdentifierService, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, IdentifierService, ILogger, ValidationError } from "@ic-wallet-kit/common";
 
 import { CheckDictionaryPrincipalForm } from "@hpl/forms/checks/checkDictionaryPrincipalForm";
 import { CheckDictionaryPrincipalResult } from "@hpl/forms/checks/checkDictionaryPrincipalResult";

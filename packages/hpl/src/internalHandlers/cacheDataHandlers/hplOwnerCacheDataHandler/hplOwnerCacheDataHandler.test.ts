@@ -6,7 +6,7 @@ import { OwnersActorWrapper } from "@hpl/hplWrappers";
 import { HplOwnerCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplOwnerCacheDataHandler/hplOwnerCacheDataHandler";
 import { HplOwnerCacheRepository } from "@hpl/repositories";
 import { HplOwnerDataCacheModel } from "@hpl/types";
-import { CacheDataError, LoadType } from "@ic-wallet-middleware/common";
+import { CacheDataError, LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit HplOwnerCacheDataHandler tests", () => {
 

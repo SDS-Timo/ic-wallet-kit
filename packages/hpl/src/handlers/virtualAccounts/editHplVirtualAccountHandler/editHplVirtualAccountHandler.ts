@@ -2,7 +2,7 @@ import { EditHplVirtualAccountForm } from "@hpl/forms";
 import { EditHplVirtualAccountInternalHandler } from "@hpl/internalHandlers";
 import { HplVirtualAccountRepository } from "@hpl/repositories";
 import { HplVirtualAccount } from "@hpl/types";
-import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

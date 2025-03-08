@@ -3,7 +3,7 @@ import { addHplAccount, editHplAccount, getHplAccountList } from "@hpl/handlers/
 import { AddHplAccountHandler } from "@hpl/handlers/accounts/addHplAccountHandler/addHplAccountHandler";
 import { EditHplAccountHandler } from "@hpl/handlers/accounts/editHplAccountHandler/editHplAccountHandler";
 import { GetHplAccountListHandler } from "@hpl/handlers/accounts/getHplAccountListHandler/getHplAccountListHandler";
-import { FormResult, HandlerWrapper, LoadType } from "@ic-wallet-middleware/common";
+import { FormResult, HandlerWrapper, LoadType } from "@ic-wallet-kit/common";
 
 describe("Allowance funcs", () => {
 

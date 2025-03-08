@@ -1,7 +1,7 @@
 import { CheckDictionaryPrincipalForm, CheckLedgerPrincipalForm } from "@hpl/forms";
 import { CheckDictionaryPrincipalHandler } from "@hpl/handlers/checks/checkDictionaryPrincipalHandler/checkDictionaryPrincipalHandler";
 import { CheckLedgerPrincipalHandler } from "@hpl/handlers/checks/checkLedgerPrincipalHandler/checkLedgerPrincipalHandler";
-import { HandlerWrapper } from "@ic-wallet-middleware/common";
+import { HandlerWrapper } from "@ic-wallet-kit/common";
 
 export const checkDictionaryPrincipal = async (form: CheckDictionaryPrincipalForm) => {
     const result = await HandlerWrapper.callHandler(CheckDictionaryPrincipalHandler, form);

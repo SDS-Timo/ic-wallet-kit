@@ -3,7 +3,7 @@ import { DictionaryActorWrapper } from "@hpl/hplWrappers";
 import { IHplDictionaryCacheRepository } from "@hpl/repositories/cache/hplDictionaryCacheRepository/hplDictionaryCacheRepository";
 import { CanisterService } from "@hpl/service/canisterService";
 import { HplDictionaryDataCacheModel } from "@hpl/types/cache/hplDictionaryDataCacheModel";
-import { BaseCacheDataHandler, CacheDataError, IdentifierService, ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { BaseCacheDataHandler, CacheDataError, IdentifierService, ILogger, LoadType } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

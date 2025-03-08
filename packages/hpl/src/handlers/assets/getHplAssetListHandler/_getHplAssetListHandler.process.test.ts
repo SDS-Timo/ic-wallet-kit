@@ -5,7 +5,7 @@ import { GetHplAssetListHandler } from "@hpl/handlers/assets/getHplAssetListHand
 import { LoadHplAssetHandler } from "@hpl/internalHandlers";
 import { HplAssetRepository } from "@hpl/repositories";
 import { HplAssetDataModel } from "@hpl/types";
-import { LoadType } from "@ic-wallet-middleware/common";
+import { LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit GetHplAssetListHandler tests", () => {
     const validData = {

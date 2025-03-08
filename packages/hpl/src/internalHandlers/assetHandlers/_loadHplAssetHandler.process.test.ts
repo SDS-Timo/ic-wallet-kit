@@ -9,7 +9,7 @@ import {
     LoadHplAssetHandler
 } from "@hpl/internalHandlers";
 import { HplDictionaryDataCacheModel, HplFtSuppliesCacheModel } from "@hpl/types";
-import { LoadType } from "@ic-wallet-middleware/common";
+import { LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit LoadHplAssetHandler tests", () => {
     const testData = [

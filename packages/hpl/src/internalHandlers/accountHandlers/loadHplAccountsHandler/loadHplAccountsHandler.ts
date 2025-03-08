@@ -8,7 +8,7 @@ import { HplStateVirtualAccountsCacheModel } from "@hpl/types/cache/hplStateVirt
 import { HplVirtualAccountCacheModel } from "@hpl/types/cache/hplVirtualAccountCacheModel";
 import { HplVirtualAccount } from "@hpl/types/virtualAccounts/hplVirtualAccount";
 import { getPrincipalGroupsQty } from "@hpl/utils/mintUtils";
-import { BaseHandler, getPxlCode, IdentifierService, ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPxlCode, IdentifierService, ILogger, LoadType } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 

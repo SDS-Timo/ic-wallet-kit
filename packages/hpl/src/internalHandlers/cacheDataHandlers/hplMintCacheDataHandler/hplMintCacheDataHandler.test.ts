@@ -5,7 +5,7 @@ import { HplMintActorWrapper } from "@hpl/hplWrappers";
 import { HplMintCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplMintCacheDataHandler/hplMintCacheDataHandler";
 import { HplMintCacheRepository } from "@hpl/repositories";
 import { HplMintCacheModel } from "@hpl/types";
-import { CacheDataError, LoadType } from "@ic-wallet-middleware/common";
+import { CacheDataError, LoadType } from "@ic-wallet-kit/common";
 
 describe("Unit HplMintCacheDataHandler tests", () => {
 

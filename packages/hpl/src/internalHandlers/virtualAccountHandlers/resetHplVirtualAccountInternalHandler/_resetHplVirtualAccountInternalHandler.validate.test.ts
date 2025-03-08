@@ -4,7 +4,7 @@ import { MockLogger } from "@hpl/__tests_utils/mockLogger";
 import { seedToIdentifierService } from "@hpl/__tests_utils/seedToIdentity";
 import { testValidate, testValidateDefinition } from "@hpl/__tests_utils/testDefinition";
 import { HplVirtualAccountStateCacheDataHandler, ResetHplVirtualAccountInternalHandler } from "@hpl/internalHandlers";
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 
 
 

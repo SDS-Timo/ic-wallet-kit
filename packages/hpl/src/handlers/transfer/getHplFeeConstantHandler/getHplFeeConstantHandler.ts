@@ -1,6 +1,6 @@
 import { GetHplFeeConstantInfo, GetHplFeeConstantResult } from "@hpl/forms";
 import { HplFeeConstantCacheDataHandler } from "@hpl/internalHandlers/cacheDataHandlers/hplFeeConstantCacheDataHandler/hplFeeConstantCacheDataHandler";
-import { BaseHandler, ILogger } from "@ic-wallet-middleware/common";
+import { BaseHandler, ILogger } from "@ic-wallet-kit/common";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";
 
