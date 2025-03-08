@@ -1,2 +1,6 @@
 /common/
 node_modules/
+/coverage/
+/packages/common/coverage/
+/packages/icrc/coverage/
+/packages/hpl/coverage/
