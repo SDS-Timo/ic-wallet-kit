@@ -1,0 +1,67 @@
+import { HplDataCacheRepository } from "@hpl/repositories/cache/hplDataCacheRepository/hplDataCacheRepository";
+import { HplDataCacheModel } from "@hpl/types";
+import { IdentifierService, ILogger, IStorage, jsonStringify } from "@ic-wallet-middleware/common";
+
+describe("HplDataCacheRepository Process Tests", () => {
+    let repository: HplDataCacheRepository;
+    let mockLogger: jest.Mocked<ILogger>;
+    let mockStorage: jest.Mocked<IStorage>;
+    let mockIdentifierService: jest.Mocked<IdentifierService>;
+
+    const mockData: HplDataCacheModel = {
+        accounts: { accountLastId: BigInt(1), accounts: [] },
+        virtualAccounts: { virtualAccountLastId: BigInt(2), virtualAccounts: [] },
+        ftAssets: { ftAssetLastId: BigInt(3), ftAssets: [] },
+        remotes: []
+    };
+
+    beforeEach(() => {
+        mockLogger = { logError: jest.fn() } as any;
+        mockStorage = {
+            getItem: jest.fn(),
+            setItem: jest.fn(),
+            removeItem: jest.fn(),
+        } as any;
+        mockIdentifierService = { getPrincipal: jest.fn().mockReturnValue("mockPrincipal") } as any;
+
+        repository = new HplDataCacheRepository(mockLogger, mockIdentifierService, mockStorage);
+    });
+
+    it("should return undefined if data does not exist in storage", () => {
+        mockStorage.getItem.mockReturnValue(null);
+
+        const result = repository.getHplDataByCanisterId("test-canister");
+        expect(result).toBeUndefined();
+    });
+
+    it("should log an error and return undefined for invalid JSON data", () => {
+        mockStorage.getItem.mockReturnValue("invalid-json");
+
+        const result = repository.getHplDataByCanisterId("test-canister");
+        expect(result).toBeUndefined();
+    });
+
+    it("should return parsed data if valid JSON is stored", () => {
+
+        mockStorage.getItem.mockReturnValue(jsonStringify(mockData));
+
+        const result = repository.getHplDataByCanisterId("test-canister");
+        expect(result).toEqual(mockData);
+    });
+
+    it("should store data in storage", () => {
+
+        repository.setHplData("test-canister", mockData);
+
+        expect(mockStorage.setItem).toHaveBeenCalledWith(
+            "mockPrincipal-test-canister-hplEntities",
+            jsonStringify(mockData)
+        );
+    });
+
+    it("should remove data from storage", () => {
+        repository.removeHplData("test-canister");
+
+        expect(mockStorage.removeItem).toHaveBeenCalledWith("mockPrincipal-test-canister-hplEntities");
+    });
+});

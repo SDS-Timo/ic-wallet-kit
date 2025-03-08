@@ -1,0 +1,37 @@
+{
+  "canisters": {
+    "db-icrc": {
+      "main": "db-canister/icrc/main.mo",
+      "type": "motoko",
+      "optimize": "cycles",
+      "declarations": {
+        "output": "src/database/candid/icrc"
+      }
+    },
+    "db-hpl": {
+      "main": "db-canister/hpl/main.mo",
+      "type": "motoko",
+      "optimize": "cycles",
+      "declarations": {
+        "output": "src/database/candid/hpl"
+      }
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "mops sources"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    },
+    "ic": {
+      "providers": [ "https://mainnet.dfinity.network" ],
+      "type": "persistent"
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,114 @@
+{
+  "hplAssets": {
+    "schema": {
+      "type": "object",
+      "version": 0,
+      "primaryKey": "id",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "updatedAt": {
+          "type": "number"
+        },
+        "payload": {
+          "type": "string"
+        },
+        "_deleted": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "updatedAt",
+        "payload"
+      ]
+    },
+    "migrationStrategies": {}
+  },
+  "hplAccounts": {
+    "schema": {
+      "type": "object",
+      "version": 0,
+      "primaryKey": "id",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "updatedAt": {
+          "type": "number"
+        },
+        "payload": {
+          "type": "string"
+        },
+        "_deleted": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "updatedAt",
+        "payload"
+      ]
+    },
+    "migrationStrategies": {}
+  },
+  "hplVirtualAccounts": {
+    "schema": {
+      "type": "object",
+      "version": 0,
+      "primaryKey": "id",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "updatedAt": {
+          "type": "number"
+        },
+        "payload": {
+          "type": "string"
+        },
+        "_deleted": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "updatedAt",
+        "payload"
+      ]
+    },
+    "migrationStrategies": {}
+  },
+  "hplContacts": {
+    "schema": {
+      "type": "object",
+      "version": 0,
+      "primaryKey": "id",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "updatedAt": {
+          "type": "number"
+        },
+        "payload": {
+          "type": "string"
+        },
+        "_deleted": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "updatedAt",
+        "payload"
+      ]
+    },
+    "migrationStrategies": {}
+  }
+}

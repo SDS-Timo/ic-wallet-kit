@@ -1,0 +1,9 @@
+# We work with a safelist here, so block everything that's not permitted, and add packages
+# that are.
+**
+
+!dist/**
+!package.json
+!README.md
+
+dist/**/*.test.*

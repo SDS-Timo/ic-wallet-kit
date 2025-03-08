@@ -1,0 +1,48 @@
+{
+  "name": "test-middleware-performance",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@dfinity/agent": "2.3.0",
+    "@dfinity/identity-secp256k1": "2.3.0",
+    "@dfinity/principal": "2.3.0",
+    "@ic-wallet-middleware/common": "npm:test-ic-wallet-middleware-common@^0.1.236",
+    "@ic-wallet-middleware/hpl": "npm:test-ic-wallet-middleware-hpl@^0.1.151",
+    "@ic-wallet-middleware/icrc": "npm:test-ic-wallet-middleware-icrc@^0.1.169",
+    "@types/node": "16.18.119",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "^7.0.1",
+    "react-scripts": "5.0.1",
+    "reflect-metadata": "0.2.2",
+    "rxdb": "16.7.0",
+    "typedi": "0.10.0",
+    "typescript": "4.9.5",
+    "web-vitals": "2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "update-middleware": "npm install '@ic-wallet-middleware/common'@npm:test-ic-wallet-middleware-common && npm install '@ic-wallet-middleware/icrc'@npm:test-ic-wallet-middleware-icrc  && npm install '@ic-wallet-middleware/hpl'@npm:test-ic-wallet-middleware-hpl "
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "hpl-middleware-wallet",
+  "version": "0.1.0",
+  "description": "Hpl middleware wallet",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDS-Timo/hpl-middleware-wallet.git"
+  },
+  "author": "SDS",
+  "license": "MIT",
+  "scripts": {
+    "build-common": "cd packages/common && npm run build-publish && cd ../..",
+    "common-publish-force": "cd packages/common && npm run publish-force && cd ../..",
+    "update-common-icrc": "cd packages/icrc && npm install @ic-wallet-middleware/common && cd ../..",
+    "update-common-hpl": "cd packages/hpl   && npm install @ic-wallet-middleware/common && cd ../..",
+    "build-common-update-dependency": "npm run build-common && npm run update-common-icrc && npm run update-common-hpl",
+    "build-lib-dependency": "npm run build-common && npm run build-common-update-dependency",
+    "brake-1": "-------------------------",
+    "build-icrc": "cd packages/icrc && npm run build-publish && cd ../..",
+    "icrc-publish-force": "cd packages/icrc && npm run publish-force && cd ../..",
+    "build-hpl": "cd packages/hpl && npm run build-publish && cd ../..",
+    "hpl-publish-force": "cd packages/hpl && npm run publish-force && cd ../..",
+    "update-console": "cd examples/console.app && npm run update-middleware && cd ../..",
+    "build-all": "clear && npm run build-common && npm run build-common-update-dependency && npm run build-icrc && npm run build-hpl && npm run update-console",
+    "build-all-force": "clear && npm run common-publish-force && npm run build-common-update-dependency && npm run icrc-publish-force && npm run hpl-publish-force && npm run update-console",
+    "ba": "npm run build-all",
+    "baf": "npm run build-all-force"
+  },
+  "bugs": {
+    "url": "https://github.com/SDS-Timo/hpl-middleware-wallet/issues"
+  },
+  "homepage": "https://github.com/SDS-Timo/hpl-middleware-wallet/readme.md",
+  "directories": {
+    "lib": "dist"
+  },
+  "keywords": [
+    "hpl"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "typescript-eslint": "^8.11.0"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "assets": {
+    "schema": {
+      "type": "object",
+      "version": 0,
+      "primaryKey": "id",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "updatedAt": {
+          "type": "number"
+        },
+        "payload": {
+          "type": "string"
+        },
+        "_deleted": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "updatedAt",
+        "payload"
+      ]
+    },
+    "migrationStrategies": {}
+  },
+  "contacts": {
+    "schema": {
+      "type": "object",
+      "version": 0,
+      "primaryKey": "id",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "updatedAt": {
+          "type": "number"
+        },
+        "payload": {
+          "type": "string"
+        },
+        "_deleted": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "updatedAt",
+        "payload"
+      ]
+    },
+    "migrationStrategies": {}
+  },
+  "allowances": {
+    "schema": {
+      "type": "object",
+      "version": 0,
+      "primaryKey": "id",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "updatedAt": {
+          "type": "number"
+        },
+        "payload": {
+          "type": "string"
+        },
+        "_deleted": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "updatedAt",
+        "payload"
+      ]
+    },
+    "migrationStrategies": {}
+  },
+  "services": {
+    "schema": {
+      "type": "object",
+      "version": 0,
+      "primaryKey": "id",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "updatedAt": {
+          "type": "number"
+        },
+        "payload": {
+          "type": "string"
+        },
+        "_deleted": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "updatedAt",
+        "payload"
+      ]
+    },
+    "migrationStrategies": {}
+  }
+}

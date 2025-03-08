@@ -1,0 +1,49 @@
+{
+  "name": "@ic-wallet-middleware/common",
+  "version": "0.1.325",
+  "description": "Ic middleware wallet common objects",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDS-Timo/hpl-middleware-wallet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SDS-Timo/hpl-middleware-wallet/issues"
+  },
+  "homepage": "https://github.com/SDS-Timo/hpl-middleware-wallet/packages/common/docs/common.md",
+  "directories": {
+    "lib": "dist"
+  },
+  "keywords": [
+    "hpl"
+  ],
+  "author": "SDS",
+  "license": "MIT",
+  "scripts": {
+    "rmdir": "rm -rf ./dist",
+    "build": "npm run rmdir && tsc && tsc-alias",
+    "update-version": "npm version patch",
+    "build-publish": "npm run build && npm run update-version && npm publish",
+    "publish-force": "npm run install-force && npm run build-publish",
+    "rmNodeFolder": "rm -rf node_modules",
+    "install-force": "npm run rmNodeFolder && npm install",
+    "test": "jest --env=node --colors --coverage test",
+    "publish": "npm run publish-force"
+  },
+  "dependencies": {
+    "@dfinity/agent": "2.3.0",
+    "@dfinity/principal": "2.3.0",
+    "big-integer": "1.6.52",
+    "rxdb": "16.7.0",
+    "rxjs": "7.8.1",
+    "typedi": "0.10.0"
+  },
+  "devDependencies": {
+    "@types/jest": "29.5.12",
+    "jest": "29.7.0",
+    "ts-jest": "29.1.2",
+    "tsconfig-paths": "4.2.0",
+    "typescript": "5.4.5"
+  }
+}

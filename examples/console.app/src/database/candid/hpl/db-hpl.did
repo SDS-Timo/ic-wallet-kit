@@ -1,0 +1,54 @@
+type WalletDatabase = 
+ service {
+   doesStorageExist: () -> (bool) query;
+   dump: () ->
+    (vec
+      record {
+        principal;
+        record {
+          vec opt HplAssetDocument;
+          vec opt HplAccountDocument;
+          vec opt HplVirtualAccountDocument;
+          vec opt HplContactDocument;
+        };
+      }) query;
+   pullHplAccounts: (nat32, opt text, nat) -> (vec HplAccountDocument) query;
+   pullHplAssets: (nat32, opt text, nat) -> (vec HplAssetDocument) query;
+   pullHplContacts: (nat32, opt text, nat) -> (vec HplContactDocument) query;
+   pullHplVirtualAccounts: (nat32, opt text, nat) ->
+    (vec HplVirtualAccountDocument) query;
+   pushHplAccounts: (vec HplAccountDocument) -> (vec HplAccountDocument);
+   pushHplAssets: (vec HplAssetDocument) -> (vec HplAssetDocument);
+   pushHplContacts: (vec HplContactDocument) -> (vec HplContactDocument);
+   pushHplVirtualAccounts: (vec HplVirtualAccountDocument) ->
+    (vec HplVirtualAccountDocument);
+ };
+type HplVirtualAccountDocument = 
+ record {
+   deleted: bool;
+   id: text;
+   payload: text;
+   updatedAt: nat32;
+ };
+type HplContactDocument = 
+ record {
+   deleted: bool;
+   id: text;
+   payload: text;
+   updatedAt: nat32;
+ };
+type HplAssetDocument = 
+ record {
+   deleted: bool;
+   id: text;
+   payload: text;
+   updatedAt: nat32;
+ };
+type HplAccountDocument = 
+ record {
+   deleted: bool;
+   id: text;
+   payload: text;
+   updatedAt: nat32;
+ };
+service : () -> WalletDatabase

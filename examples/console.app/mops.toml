@@ -1,0 +1,7 @@
+[dependencies]
+ 
+vector = "0.3.1"
+base = "0.11.1"
+stableheapbtreemap = "1.5.0"
+rxmo = "0.2.0"
+rxmodb = "https://github.com/research-ag/RxMoDb#master@613c4669da00437f6efc7a103b8abad850cbd7bb"
