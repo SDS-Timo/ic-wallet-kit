@@ -1,5 +1,5 @@
 {
-  "name": "@ic-wallet-middleware/icrc",
+  "name": "@ic-wallet-kit/icrc",
   "version": "0.1.243",
   "description": "Ic middleware wallet ICRC protocol",
   "main": "dist/index.js",
@@ -29,7 +29,7 @@
     "rmNodeFolder": "rm -rf node_modules",
     "install-force": "npm run rmNodeFolder && npm install",
     "test": "jest --env=node --colors --coverage test",
-    "publish": "npm install @ic-wallet-middleware/common@latest && npm run publish-force"
+    "publish": "npm install @ic-wallet-kit/common@latest && npm run publish-force"
   },
   "dependencies": {
     "@dfinity/agent": "2.3.0",
@@ -39,7 +39,7 @@
     "@dfinity/ledger-icp": "2.6.10",
     "@dfinity/ledger-icrc": "2.7.5",
     "@dfinity/principal": "2.3.0",
-    "@ic-wallet-middleware/common": "0.1.325",
+    "@ic-wallet-kit/common": "0.1.325",
     "big-integer": "1.6.52",
     "moment": "2.30.1",
     "reflect-metadata": "0.2.2",

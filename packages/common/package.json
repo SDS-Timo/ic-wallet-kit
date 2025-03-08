@@ -1,5 +1,5 @@
 {
-  "name": "@ic-wallet-middleware/common",
+  "name": "@ic-wallet-kit/common",
   "version": "0.1.325",
   "description": "Ic middleware wallet common objects",
   "main": "dist/index.js",
