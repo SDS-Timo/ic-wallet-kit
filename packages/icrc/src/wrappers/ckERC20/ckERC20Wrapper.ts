@@ -1,6 +1,6 @@
 import { Actor, HttpAgent } from "@dfinity/agent";
 import { Principal } from "@dfinity/principal";
-import { IdentifierService, ILogger } from "@ic-wallet-middleware/common";
+import { IdentifierService, ILogger } from "@ic-wallet-kit/common";
 import { idlFactory as ckERC20Factory } from "@icrc/candid/ckERC20/candid.did";
 import { _SERVICE as ckERC20Service } from "@icrc/candid/ckERC20/service.did";
 import { LedgerWrapper } from "@icrc/wrappers/icrc/ledgerWrapper/ledgerWrapper";

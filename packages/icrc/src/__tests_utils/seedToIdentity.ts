@@ -1,7 +1,7 @@
 import { AnonymousIdentity, HttpAgent, Identity } from "@dfinity/agent";
 import { Ed25519KeyIdentity } from "@dfinity/identity";
 
-import { IdentifierService } from "@ic-wallet-middleware/common";
+import { IdentifierService } from "@ic-wallet-kit/common";
 
 export function seedToIdentity(seed: string): Identity {
     const seedBuf = new Uint8Array(new ArrayBuffer(32));

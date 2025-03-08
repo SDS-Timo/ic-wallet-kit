@@ -1,4 +1,4 @@
-import { BaseCacheDataHandler, CacheDataError, IdentifierService, IInfo, ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { BaseCacheDataHandler, CacheDataError, IdentifierService, IInfo, ILogger, LoadType } from "@ic-wallet-kit/common";
 import { TokenLocalCache } from "@icrc/repositories";
 import { IcrcLedgerServiceWrapper } from "@icrc/wrappers";
 

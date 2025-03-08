@@ -1,4 +1,4 @@
-import { HandlerWrapper } from "@ic-wallet-middleware/common";
+import { HandlerWrapper } from "@ic-wallet-kit/common";
 import { AddServiceAssetsHandler, AddServiceHandler, CheckServicePrincipalHandler, EditServiceNameHandler, GetListServiceHandler, NotifyServiceHandler, RemoveServiceAssetsHandler, RemoveServiceHandler, TransferFromServiceHandler, TransferToServiceHandler } from "@icrc/handlers";
 import { AddServiceAssetListForm, AddServiceForm, CheckServicePrincipalForm, EditServiceNameForm, GetServiceListForm, NotifyForm, RemoveServiceAssetForm, RemoveServiceForm, TransferForm, TransferFromServiceForm } from "@icrc/types/forms";
 

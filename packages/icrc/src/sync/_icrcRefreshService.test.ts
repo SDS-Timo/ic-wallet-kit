@@ -1,4 +1,4 @@
-import { RefreshServiceConfiguration } from "@ic-wallet-middleware/common";
+import { RefreshServiceConfiguration } from "@ic-wallet-kit/common";
 import { itForeach } from "@icrc/__tests_utils/itForeach";
 import { testDefinition } from "@icrc/__tests_utils/testDefinition";
 import { GetListAllowanceHandler, GetListAssetHandler, GetListContactHandler, GetListServiceHandler } from "@icrc/handlers";

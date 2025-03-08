@@ -1,7 +1,7 @@
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { AddAssetForm } from "@icrc/types/forms/assets/addAssetForm";
 
-import { LoadType } from "@ic-wallet-middleware/common";
+import { LoadType } from "@ic-wallet-kit/common";
 import { itForeach } from "@icrc/__tests_utils/itForeach";
 import { mockLedgerAddress } from "@icrc/__tests_utils/mockConstrains";
 import { mockAnonymousIdentifierService } from "@icrc/__tests_utils/seedToIdentity";

@@ -1,5 +1,5 @@
 
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 import { IAllowanceDataStorage } from "@icrc/storage/allowanceDataStorage/allowanceDataStorage";
 import { AllowanceStorageModel } from "@icrc/types/allowances/allowanceStorageModel";
 import { CheckAllowanceForm, RemoveAllowanceForm } from "@icrc/types/forms";

@@ -1,4 +1,4 @@
-import { getPropertyName, ValidationError } from "@ic-wallet-middleware/common";
+import { getPropertyName, ValidationError } from "@ic-wallet-kit/common";
 import { itValidate } from "@icrc/__tests_utils/itValidate";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { mockAnonymousIdentifierService } from "@icrc/__tests_utils/seedToIdentity";

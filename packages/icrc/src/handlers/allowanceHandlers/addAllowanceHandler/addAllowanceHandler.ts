@@ -1,4 +1,4 @@
-import { AmountProvider, BaseHandler, getPropertyName, ILogger, LoadType, ValidationError } from "@ic-wallet-middleware/common";
+import { AmountProvider, BaseHandler, getPropertyName, ILogger, LoadType, ValidationError } from "@ic-wallet-kit/common";
 
 import { AddIcrcAllowanceHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/allowances/addIcrcAllowanceHandler/addIcrcAllowanceHandler";
 import { AssetMetaDataCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/assets/assetMetaDataCacheHandler/assetMetaDataCacheHandler";

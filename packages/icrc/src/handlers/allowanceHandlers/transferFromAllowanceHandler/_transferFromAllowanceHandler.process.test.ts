@@ -2,7 +2,7 @@ import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 
 import { mockLedgerAddress, mockReceiverPrincipal, mockSpenderPrincipal } from "@icrc/__tests_utils/mockConstrains";
 
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 import { itForeach } from "@icrc/__tests_utils/itForeach";
 import { mockAnonymousIdentifierService } from "@icrc/__tests_utils/seedToIdentity";
 import { testDefinition } from "@icrc/__tests_utils/testDefinition";

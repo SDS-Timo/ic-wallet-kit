@@ -1,4 +1,4 @@
-﻿import { BaseDataStorage, IdentifierService, ILogger } from "@ic-wallet-middleware/common";
+﻿import { BaseDataStorage, IdentifierService, ILogger } from "@ic-wallet-kit/common";
 import { IcrcDbContext } from "@icrc/storage/database/icrcDbContext";
 
 import "reflect-metadata";

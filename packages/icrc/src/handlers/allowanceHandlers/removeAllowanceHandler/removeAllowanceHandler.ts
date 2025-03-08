@@ -1,4 +1,4 @@
-import { BaseHandler, IdentifierService, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, IdentifierService, ILogger, ValidationError } from "@ic-wallet-kit/common";
 
 import { AllowanceLocalCache } from "@icrc/repositories";
 import { AllowanceRepository } from "@icrc/repositories/persists/allowanceRepository/allowanceRepository";

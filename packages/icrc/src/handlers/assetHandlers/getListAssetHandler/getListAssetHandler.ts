@@ -1,4 +1,4 @@
-import { BaseHandler, FormResult, ILogger } from "@ic-wallet-middleware/common";
+import { BaseHandler, FormResult, ILogger } from "@ic-wallet-kit/common";
 import { LoadAssetHandler } from "@icrc/internalHandlers/loadAssetHandler/loadAssetHandler";
 import { AssetRepository } from "@icrc/repositories/persists/assetRepository/assetRepository";
 import { AssetICRC, AssetView, SubAccountId } from "@icrc/types";

@@ -1,7 +1,7 @@
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { AddSubAccountForm } from "@icrc/types/forms";
 
-import { LoadType, ValidationError } from "@ic-wallet-middleware/common";
+import { LoadType, ValidationError } from "@ic-wallet-kit/common";
 import { itForeach } from "@icrc/__tests_utils/itForeach";
 import { mockLedgerAddress } from "@icrc/__tests_utils/mockConstrains";
 import { testDefinition } from "@icrc/__tests_utils/testDefinition";

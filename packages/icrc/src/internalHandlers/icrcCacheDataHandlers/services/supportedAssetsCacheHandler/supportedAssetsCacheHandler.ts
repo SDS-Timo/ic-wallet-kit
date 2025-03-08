@@ -1,4 +1,4 @@
-import { BaseCacheDataHandler, CacheDataError, IInfo, ILogger, IdentifierService, LoadType, jsonStringify } from "@ic-wallet-middleware/common";
+import { BaseCacheDataHandler, CacheDataError, IInfo, ILogger, IdentifierService, LoadType, jsonStringify } from "@ic-wallet-kit/common";
 import { IcrcCacheMetadataErrorKey, IcrcCacheMetadataErrorMessage } from "@icrc/errors/cacheErrorMessages";
 import { ServiceLocalCache } from "@icrc/repositories";
 import { Icrc84ActorWrapper } from "@icrc/wrappers";

@@ -1,5 +1,5 @@
 import { IcrcTokenMetadataResponse } from "@dfinity/ledger-icrc";
-import { ILogger } from "@ic-wallet-middleware/common";
+import { ILogger } from "@ic-wallet-kit/common";
 import { LedgerWrapper } from "@icrc/wrappers/icrc/ledgerWrapper/ledgerWrapper";
 import { Inject, Service } from "typedi";
 import { TokenApiResult } from "../tokenApiResult";

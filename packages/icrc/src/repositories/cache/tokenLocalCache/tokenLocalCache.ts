@@ -1,4 +1,4 @@
-﻿import { ILogger, IStorage, IdentifierService, jsonParse, jsonStringify } from "@ic-wallet-middleware/common";
+﻿import { ILogger, IStorage, IdentifierService, jsonParse, jsonStringify } from "@ic-wallet-kit/common";
 import { TokenModel } from "@icrc/wrappers/tokenModel";
 import { Inject, Service } from "typedi";
 

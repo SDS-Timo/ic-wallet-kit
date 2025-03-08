@@ -1,4 +1,4 @@
-import { BaseHandler, getPropertyName, IdentifierService, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, IdentifierService, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import { CheckServicePrincipalForm } from "@icrc/types/forms/services/checkServicePrincipalForm";
 import { CheckServicePrincipalResult } from "@icrc/types/forms/services/checkServicePrincipalResult";
 import { Icrc84ActorWrapper } from "@icrc/wrappers";

@@ -1,4 +1,4 @@
-import { IdentifierService, ILogger, IStorage, RefreshServiceConfiguration, ReplicationConfiguration } from "@ic-wallet-middleware/common";
+import { IdentifierService, ILogger, IStorage, RefreshServiceConfiguration, ReplicationConfiguration } from "@ic-wallet-kit/common";
 import { IcrcReplicationManager } from "@icrc/replications";
 import { AllowanceDataStorage, AssetDataStorage, ContactDataStorage, IcrcDbContext, ServiceDataStorage } from "@icrc/storage";
 import { IcrcRefreshService } from "@icrc/sync";

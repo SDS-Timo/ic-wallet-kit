@@ -1,4 +1,4 @@
-﻿import { ILocalCacheStorage, ILogger, IStorage, jsonParse, jsonStringify } from "@ic-wallet-middleware/common";
+﻿import { ILocalCacheStorage, ILogger, IStorage, jsonParse, jsonStringify } from "@ic-wallet-kit/common";
 import { TokenMarketInfo } from "@icrc/types/assets";
 import { Inject, Service } from "typedi";
 

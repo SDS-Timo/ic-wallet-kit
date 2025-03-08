@@ -1,4 +1,4 @@
-import { HandlerWrapper } from "@ic-wallet-middleware/common";
+import { HandlerWrapper } from "@ic-wallet-kit/common";
 import { AddServiceAssetsHandler } from "@icrc/handlers/serviceHandlers/addServiceAssetsHandler/addServiceAssetsHandler";
 import { AddServiceHandler } from "@icrc/handlers/serviceHandlers/addServiceHandler/addServiceHandler";
 import { CheckServicePrincipalHandler } from "@icrc/handlers/serviceHandlers/checkServicePrincipalHandler/checkServicePrincipalHandler";

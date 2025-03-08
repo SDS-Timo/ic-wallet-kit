@@ -1,4 +1,4 @@
-import { HandlerWrapper } from "@ic-wallet-middleware/common";
+import { HandlerWrapper } from "@ic-wallet-kit/common";
 import { AddAssetContactHandler, AddSubAccountContactHandler, EditContactHandler, EditOrAddContactHandler, EditOrAddSubAccountContactHandler, EditSubAccountContactHandler, GetListContactHandler, RemoveAssetContactHandler, RemoveContactHandler, RemoveSubAccountContactHandler } from "@icrc/handlers";
 import { AddAssetContactForm, AddSubAccountContactForm, EditContactForm, EditSubAccountContactForm, GetListContactForm, RemoveAssetContactForm, RemoveContactForm, RemoveSubAccountContactForm } from "@icrc/types";
 

@@ -1,4 +1,4 @@
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 import { ContactRepository } from "@icrc/repositories";
 import { IContactDataStorage } from "@icrc/storage/contactDataStorage/contactDataStorage";
 import { AddAssetContactForm, EditSubAccountContactForm, RemoveAssetContactForm, RemoveSubAccountContactForm, SubAccountId } from "@icrc/types";

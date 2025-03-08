@@ -1,6 +1,6 @@
 import { IcrcIndexCanister, IcrcTransactionWithId } from "@dfinity/ledger-icrc";
 import { Principal } from "@dfinity/principal";
-import { PageInfo } from "@ic-wallet-middleware/common";
+import { PageInfo } from "@ic-wallet-kit/common";
 import { IcrcIndexError } from "@icrc/errors/icrcIndexError";
 import { SubAccountId } from "@icrc/types";
 

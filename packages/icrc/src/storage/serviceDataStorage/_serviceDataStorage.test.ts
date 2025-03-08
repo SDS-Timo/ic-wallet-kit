@@ -1,5 +1,5 @@
 
-import { ILogger } from "@ic-wallet-middleware/common";
+import { ILogger } from "@ic-wallet-kit/common";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { mockAnonymousIdentifierService } from "@icrc/__tests_utils/seedToIdentity";
 import { IcrcDbContext, ServiceDataStorage } from "@icrc/storage";

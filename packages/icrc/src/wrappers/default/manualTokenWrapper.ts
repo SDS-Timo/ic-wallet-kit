@@ -1,4 +1,4 @@
-import { IdentifierService, ILogger } from "@ic-wallet-middleware/common";
+import { IdentifierService, ILogger } from "@ic-wallet-kit/common";
 import { LedgerWrapper } from "@icrc/wrappers/icrc/ledgerWrapper/ledgerWrapper";
 import "reflect-metadata";
 import { Inject, Service } from "typedi";

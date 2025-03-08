@@ -1,3 +1,4 @@
+import "reflect-metadata";
 export * from "./errors";
 export * from "./forms";
 export * from "./handlers";

@@ -1,4 +1,4 @@
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 import { itForeach } from "@icrc/__tests_utils/itForeach";
 import { mockAssetManagerConfiguration, mockSpenderPrincipalString } from "@icrc/__tests_utils/mockConstrains";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";

@@ -1,4 +1,4 @@
-﻿import { BadRequestError } from "@ic-wallet-middleware/common";
+﻿import { BadRequestError } from "@ic-wallet-kit/common";
 
 export class Icrc84Error extends BadRequestError {
 

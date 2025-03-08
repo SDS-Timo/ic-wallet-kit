@@ -1,4 +1,4 @@
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 import { ServiceRepository } from "@icrc/repositories/persists/serviceRepository/serviceRepository";
 import { IServiceDataStorage } from "@icrc/storage";
 import { ServiceModel } from "@icrc/types";

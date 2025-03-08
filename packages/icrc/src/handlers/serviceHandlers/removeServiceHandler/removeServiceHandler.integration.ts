@@ -1,5 +1,5 @@
 
-import { FormResult } from "@ic-wallet-middleware/common";
+import { FormResult } from "@ic-wallet-kit/common";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { RemoveServiceHandler } from "@icrc/handlers/serviceHandlers/removeServiceHandler/removeServiceHandler";
 import { ServiceRepository } from "@icrc/repositories/persists/serviceRepository/serviceRepository";

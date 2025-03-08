@@ -1,4 +1,4 @@
-import { ILogger, ReplicationConfiguration, ReplicationProcessor } from "@ic-wallet-middleware/common";
+import { ILogger, ReplicationConfiguration, ReplicationProcessor } from "@ic-wallet-kit/common";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { IcrcReplicationManager } from "@icrc/replications/icrcReplicationManager";
 import { IAllowanceDataStorage, IAssetDataStorage, IContactDataStorage, IServiceDataStorage, IcrcDbContext } from "@icrc/storage";

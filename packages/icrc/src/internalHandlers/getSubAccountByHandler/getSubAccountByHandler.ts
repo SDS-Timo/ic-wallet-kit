@@ -1,4 +1,4 @@
-import { ILogger } from "@ic-wallet-middleware/common";
+import { ILogger } from "@ic-wallet-kit/common";
 import { BaseInternalHandler } from "@icrc/internalHandlers/baseInternalHandler/baseInternalHandler";
 import { AssetMetaDataCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/assets/assetMetaDataCacheHandler/assetMetaDataCacheHandler";
 import { GetTokenMarketCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/assets/getTokenMarketCacheHandler/getTokenMarketCacheHandler";

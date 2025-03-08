@@ -1,4 +1,4 @@
-import { HandlerWrapper } from "@ic-wallet-middleware/common";
+import { HandlerWrapper } from "@ic-wallet-kit/common";
 import { RemoveSubAccountHandler, UpdateAssetHandler, UpdateSubAccountHandler } from "@icrc/handlers/assetHandlers";
 import { AddAssetHandler } from "@icrc/handlers/assetHandlers/addAssetHandler/addAssetHandler";
 import { AddSubAccountHandler } from "@icrc/handlers/assetHandlers/addSubAccountHandler/addSubAccountHandler";

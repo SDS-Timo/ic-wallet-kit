@@ -1,4 +1,4 @@
-import { HandlerWrapper, LoadType } from "@ic-wallet-middleware/common";
+import { HandlerWrapper, LoadType } from "@ic-wallet-kit/common";
 import { mockIndexAddress, mockLedgerAddress } from "@icrc/__tests_utils/mockConstrains";
 import {
     addAsset,

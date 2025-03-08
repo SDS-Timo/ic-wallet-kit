@@ -1,4 +1,4 @@
-import { LoadType, RefreshServiceBase, RefreshServiceConfiguration } from "@ic-wallet-middleware/common";
+import { LoadType, RefreshServiceBase, RefreshServiceConfiguration } from "@ic-wallet-kit/common";
 import { GetListAllowanceHandler, GetListAssetHandler, GetListContactHandler, GetListServiceHandler } from "@icrc/handlers";
 import { IcrcRxSyncStateService } from "@icrc/replications";
 import { Inject, Service } from "typedi";

@@ -1,4 +1,4 @@
-import { BaseHandler, getPropertyName, ILogger, LoadType, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, ILogger, LoadType, ValidationError } from "@ic-wallet-kit/common";
 import { GetSubAccountByHandler } from "@icrc/internalHandlers/getSubAccountByHandler/getSubAccountByHandler";
 import { AssetRepository } from "@icrc/repositories/persists/assetRepository/assetRepository";
 import { AddSubAccountForm, AddSubAccountResult, GetSubAccountForm } from "@icrc/types/forms";

@@ -1,4 +1,4 @@
-import { ILogger, IStorage } from "@ic-wallet-middleware/common";
+import { ILogger, IStorage } from "@ic-wallet-kit/common";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { mockStorage } from "@icrc/__tests_utils/mockStorage";
 import { TokenMarketLocalCache } from "@icrc/repositories/cache/tokenMarketLocalCache/tokenMarketLocalCache";

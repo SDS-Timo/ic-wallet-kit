@@ -1,4 +1,4 @@
-import { LoadType } from "@ic-wallet-middleware/common";
+import { LoadType } from "@ic-wallet-kit/common";
 import { itForeach } from "@icrc/__tests_utils/itForeach";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { mockAnonymousIdentifierService } from "@icrc/__tests_utils/seedToIdentity";

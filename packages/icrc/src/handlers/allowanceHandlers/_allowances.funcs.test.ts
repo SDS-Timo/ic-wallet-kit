@@ -1,4 +1,4 @@
-import { FormResult, HandlerWrapper, LoadType } from "@ic-wallet-middleware/common";
+import { FormResult, HandlerWrapper, LoadType } from "@ic-wallet-kit/common";
 import { mockOwnerPrincipalString, mockReceiverPrincipal, mockSpenderPrincipal } from "@icrc/__tests_utils/mockConstrains";
 import {
     addAllowance,

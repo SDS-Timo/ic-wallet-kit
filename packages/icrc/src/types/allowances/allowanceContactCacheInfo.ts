@@ -1,4 +1,4 @@
-import { ILoadForce } from "@ic-wallet-middleware/common";
+import { ILoadForce } from "@ic-wallet-kit/common";
 import { SubAccountId } from "@icrc/types/assets";
 
 export interface AllowanceContactCacheInfo extends ILoadForce {

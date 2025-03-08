@@ -1,5 +1,5 @@
 
-import { IBaseDataStorage } from "@ic-wallet-middleware/common";
+import { IBaseDataStorage } from "@ic-wallet-kit/common";
 import { RxBaseDataStorage } from "@icrc/storage/base/rxBaseDataStorage";
 import { ServiceModel } from "@icrc/types/services";
 

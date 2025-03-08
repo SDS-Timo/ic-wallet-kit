@@ -1,4 +1,4 @@
-import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import { ServiceRepository } from "@icrc/repositories/persists/serviceRepository/serviceRepository";
 import { RemoveServiceForm, RemoveServiceResult } from "@icrc/types/forms";
 import { Inject, Service } from "typedi";

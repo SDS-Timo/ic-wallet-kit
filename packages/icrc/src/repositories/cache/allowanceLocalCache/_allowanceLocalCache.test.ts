@@ -1,4 +1,4 @@
-import { ILogger, IStorage, jsonStringify } from "@ic-wallet-middleware/common";
+import { ILogger, IStorage, jsonStringify } from "@ic-wallet-kit/common";
 import { mockLedgerAddress, mockOwnerPrincipalString } from "@icrc/__tests_utils/mockConstrains";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { mockStorage } from "@icrc/__tests_utils/mockStorage";

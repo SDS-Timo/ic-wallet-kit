@@ -1,4 +1,4 @@
-import { getUSDfromToken } from "@ic-wallet-middleware/common";
+import { getUSDfromToken } from "@ic-wallet-kit/common";
 import { TokenMarketInfo } from "@icrc/types";
 
 export const getCurrencyAmount = (tokenMarket: TokenMarketInfo | undefined, balance: bigint, decimals: number): string => {

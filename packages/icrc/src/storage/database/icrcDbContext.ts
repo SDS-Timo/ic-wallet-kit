@@ -1,7 +1,7 @@
 import { RxStorage } from "rxdb";
 import DBSchemas from "./schema.json";
 
-import { BaseRxDbContext, IdentifierService } from "@ic-wallet-middleware/common";
+import { BaseRxDbContext, IdentifierService } from "@ic-wallet-kit/common";
 
 export class IcrcDbContext extends BaseRxDbContext {
 

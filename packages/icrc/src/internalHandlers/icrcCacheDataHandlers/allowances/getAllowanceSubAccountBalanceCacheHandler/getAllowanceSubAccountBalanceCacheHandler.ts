@@ -1,6 +1,6 @@
 
 import { Principal } from "@dfinity/principal";
-import { BaseCacheDataHandlerV2, CacheDataError, IInfo, ILogger, IdentifierService, LoadType } from "@ic-wallet-middleware/common";
+import { BaseCacheDataHandlerV2, CacheDataError, IInfo, ILogger, IdentifierService, LoadType } from "@ic-wallet-kit/common";
 import { IcrcCacheBalanceErrorKey, IcrcCacheBalanceErrorMessage } from "@icrc/errors/cacheErrorMessages";
 import { AssetLocalCache } from "@icrc/repositories";
 import { LocalCacheSubAccountModel, SubAccountId } from "@icrc/types";

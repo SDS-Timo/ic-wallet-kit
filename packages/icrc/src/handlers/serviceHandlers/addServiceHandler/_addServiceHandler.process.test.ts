@@ -1,4 +1,4 @@
-import { FormResult } from "@ic-wallet-middleware/common";
+import { FormResult } from "@ic-wallet-kit/common";
 import { itForeach } from "@icrc/__tests_utils/itForeach";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { mockAnonymousIdentifierService } from "@icrc/__tests_utils/seedToIdentity";

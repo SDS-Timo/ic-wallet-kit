@@ -1,4 +1,4 @@
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 import { AllowanceRepository } from "@icrc/repositories/persists/allowanceRepository/allowanceRepository";
 import { IAllowanceDataStorage } from "@icrc/storage/allowanceDataStorage/allowanceDataStorage";
 import { SubAccountId } from "@icrc/types";

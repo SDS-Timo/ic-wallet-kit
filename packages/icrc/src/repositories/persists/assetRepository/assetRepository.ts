@@ -1,4 +1,4 @@
-import { ValidationError, getPropertyName } from "@ic-wallet-middleware/common";
+import { ValidationError, getPropertyName } from "@ic-wallet-kit/common";
 
 import { orderBySubAccountId } from "@icrc/extensions/subAccountExtension";
 import { IAssetDataStorage } from "@icrc/storage/assetDataStorage/assetDataStorage";

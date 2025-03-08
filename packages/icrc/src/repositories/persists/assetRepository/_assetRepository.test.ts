@@ -1,4 +1,4 @@
-import { ValidationError } from "@ic-wallet-middleware/common";
+import { ValidationError } from "@ic-wallet-kit/common";
 import { mockIndexAddress, mockLedgerAddress } from "@icrc/__tests_utils/mockConstrains";
 import { AssetRepository } from "@icrc/repositories";
 import { AssetDataStorage, IAssetDataStorage } from "@icrc/storage/assetDataStorage/assetDataStorage";

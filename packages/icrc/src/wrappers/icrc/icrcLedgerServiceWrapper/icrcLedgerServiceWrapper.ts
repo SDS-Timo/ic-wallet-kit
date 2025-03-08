@@ -1,6 +1,6 @@
 import { Actor, HttpAgent } from "@dfinity/agent";
 import { backoff, chain, conditionalDelay, once, timeout } from "@dfinity/agent/lib/cjs/polling/strategy";
-import { ILogger } from "@ic-wallet-middleware/common";
+import { ILogger } from "@ic-wallet-kit/common";
 import { idlFactory } from "@icrc/candid/icrcLedger/icrcLedgerCandid.did";
 import { _SERVICE as IcrcLedgerService } from "@icrc/candid/icrcLedger/icrcLedgerCandid.service.did";
 import { SupportedStandardEnum } from "@icrc/types/wallets/supportedStandardEnum";

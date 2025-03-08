@@ -1,4 +1,4 @@
-import { HandlerWrapper } from "@ic-wallet-middleware/common";
+import { HandlerWrapper } from "@ic-wallet-kit/common";
 import { CheckAllowanceByPrincipalHandler, CheckAllowanceHandler, GetListAllowanceHandler, RemoveAllowanceHandler, TransferFromAllowanceHandler, UpdateAllowanceHandler } from "@icrc/handlers";
 import { AddAllowanceHandler } from "@icrc/handlers/allowanceHandlers/addAllowanceHandler/addAllowanceHandler";
 import { AddAllowanceForm, CheckAllowanceByPrincipalForm, CheckAllowanceForm, GetListAllowanceForm, RemoveAllowanceForm, TransferFromAllowanceForm, UpdateAllowanceForm } from "@icrc/types/forms";

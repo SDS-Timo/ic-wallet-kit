@@ -1,5 +1,5 @@
 import { Principal } from "@dfinity/principal";
-import { BaseHandler, getPropertyName, IdentifierService, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, IdentifierService, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import { AssetRepository } from "@icrc/repositories/persists/assetRepository/assetRepository";
 import { ManualAssetView, SubAccountId } from "@icrc/types";
 import { CheckAssetForm } from "@icrc/types/forms";

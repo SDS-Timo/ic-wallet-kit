@@ -1,4 +1,4 @@
-import { PageInfo } from "@ic-wallet-middleware/common";
+import { PageInfo } from "@ic-wallet-kit/common";
 import { SubAccountId } from "@icrc/types/assets";
 
 

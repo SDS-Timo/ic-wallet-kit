@@ -1,5 +1,5 @@
 import { Principal } from "@dfinity/principal";
-import { FormResult } from "@ic-wallet-middleware/common";
+import { FormResult } from "@ic-wallet-kit/common";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { mockAnonymousIdentifierService } from "@icrc/__tests_utils/seedToIdentity";
 import { TransferToServiceHandler } from "@icrc/handlers/serviceHandlers/transferToServiceHandler/transferToServiceHandler";

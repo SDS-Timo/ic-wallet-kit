@@ -1,6 +1,6 @@
 
 import { Actor } from "@dfinity/agent";
-import { BaseCacheDataHandler, CacheDataError, IdentifierService, IInfo, ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { BaseCacheDataHandler, CacheDataError, IdentifierService, IInfo, ILogger, LoadType } from "@ic-wallet-kit/common";
 import { idlFactory as MarketIDLFactory } from "@icrc/candid/neutrinite/candid.did";
 import { LatestExtendedToken, _SERVICE as MarketActor } from "@icrc/candid/neutrinite/service.did";
 import { IcrcCacheTransactionFeeErrorKey, IcrcCacheTransactionFeeErrorMessage } from "@icrc/errors/cacheErrorMessages";

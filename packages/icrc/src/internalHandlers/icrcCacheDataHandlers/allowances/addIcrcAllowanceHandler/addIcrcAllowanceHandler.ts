@@ -1,4 +1,4 @@
-import { BaseHandler, IdentifierService, ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { BaseHandler, IdentifierService, ILogger, LoadType } from "@ic-wallet-kit/common";
 import { AssetMetaDataCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/assets/assetMetaDataCacheHandler/assetMetaDataCacheHandler";
 import { AllowanceLocalCache } from "@icrc/repositories";
 import { AssetManagerConfiguration, SubAccountId } from "@icrc/types";

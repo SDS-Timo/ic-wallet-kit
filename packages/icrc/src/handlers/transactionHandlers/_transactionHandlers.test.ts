@@ -1,4 +1,4 @@
-import { HandlerWrapper } from "@ic-wallet-middleware/common";
+import { HandlerWrapper } from "@ic-wallet-kit/common";
 import { getListTransaction, sendTransaction, SendTransactionHandler } from "@icrc/handlers";
 import { GetListTransactionHandler } from "@icrc/handlers/transactionHandlers/getListTransactionHandler/getListTransactionHandler";
 import { GetListTransactionForm, SendTransactionForm } from "@icrc/types";

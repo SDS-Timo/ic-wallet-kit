@@ -1,4 +1,4 @@
-import { ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { ILogger, LoadType } from "@ic-wallet-kit/common";
 import { itForeach } from "@icrc/__tests_utils/itForeach";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { testDefinition } from "@icrc/__tests_utils/testDefinition";

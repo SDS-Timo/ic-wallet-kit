@@ -1,4 +1,4 @@
-﻿import { BaseHandler, IFormError, ILogger } from "@ic-wallet-middleware/common";
+﻿import { BaseHandler, IFormError, ILogger } from "@ic-wallet-kit/common";
 import { IcrcCacheBalanceErrorKey, IcrcCacheMetadataErrorKey, IcrcCacheTransactionFeeErrorKey } from "@icrc/errors/cacheErrorMessages";
 import { getCurrencyAmount } from "@icrc/extensions/currencyExtension";
 import { SubAccountBalanceHandler, SubAccountBalanceInfo } from "@icrc/internalHandlers/icrcCacheDataHandlers/assets/subAccountBalanceHandler/subAccountBalanceHandler";

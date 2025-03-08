@@ -1,4 +1,4 @@
-﻿import { ILogger, IStorage, IdentifierService, jsonParse, jsonStringify } from "@ic-wallet-middleware/common";
+﻿import { ILogger, IStorage, IdentifierService, jsonParse, jsonStringify } from "@ic-wallet-kit/common";
 import { LocalCacheCreditModel } from "@icrc/types/services/localCacheCreditModel";
 import { LocalCacheServiceAssetModel } from "@icrc/types/services/localCacheServiceAssetModel";
 import { LocalCacheServiceModel } from "@icrc/types/services/localCacheServiceModel";

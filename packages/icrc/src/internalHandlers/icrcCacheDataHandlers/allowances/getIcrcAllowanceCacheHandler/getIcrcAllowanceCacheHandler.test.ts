@@ -1,6 +1,6 @@
 
 import { Principal } from "@dfinity/principal";
-import { CacheDataError, LoadType } from "@ic-wallet-middleware/common";
+import { CacheDataError, LoadType } from "@ic-wallet-kit/common";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { seedToIdentifierService } from "@icrc/__tests_utils/seedToIdentity";
 import { AllowanceSubAccountBalance } from "@icrc/internalHandlers/icrcCacheDataHandlers/allowances/getAllowanceSubAccountBalanceCacheHandler/getAllowanceSubAccountBalanceCacheHandler";

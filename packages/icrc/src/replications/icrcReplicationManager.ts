@@ -1,5 +1,5 @@
 
-import { BaseRxDbDocument, createCanisterFunc, IdentifierService, ILogger, ReplicationCollectionDetails, ReplicationConfiguration, ReplicationProcessor } from "@ic-wallet-middleware/common";
+import { BaseRxDbDocument, createCanisterFunc, IdentifierService, ILogger, ReplicationCollectionDetails, ReplicationConfiguration, ReplicationProcessor } from "@ic-wallet-kit/common";
 import { IAllowanceDataStorage, IAssetDataStorage, IContactDataStorage, IcrcDbContext, IServiceDataStorage } from "@icrc/storage";
 import { Inject, Service } from "typedi";
 import { IcrcRxSyncStateService } from "./IcrcRxSyncStateService";

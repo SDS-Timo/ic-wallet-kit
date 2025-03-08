@@ -1,4 +1,4 @@
-import { ValidationError, getPropertyName } from "@ic-wallet-middleware/common";
+import { ValidationError, getPropertyName } from "@ic-wallet-kit/common";
 import { itValidate } from "@icrc/__tests_utils/itValidate";
 import { mockLedgerAddress, mockSpenderPrincipalString } from "@icrc/__tests_utils/mockConstrains";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";

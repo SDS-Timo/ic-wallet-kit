@@ -1,4 +1,4 @@
-import { RxSyncStateBaseService } from "@ic-wallet-middleware/common";
+import { RxSyncStateBaseService } from "@ic-wallet-kit/common";
 import { Service } from "typedi";
 
 

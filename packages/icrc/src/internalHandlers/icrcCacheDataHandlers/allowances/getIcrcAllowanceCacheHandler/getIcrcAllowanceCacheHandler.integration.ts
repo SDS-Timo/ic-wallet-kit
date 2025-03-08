@@ -1,6 +1,6 @@
 import { HttpAgent } from "@dfinity/agent";
 import { Principal } from "@dfinity/principal";
-import { FormResult, IdentifierService, LoadType } from "@ic-wallet-middleware/common";
+import { FormResult, IdentifierService, LoadType } from "@ic-wallet-kit/common";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { GetIcrcAllowanceCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/allowances/getIcrcAllowanceCacheHandler/getIcrcAllowanceCacheHandler";
 import { AllowanceLocalCache } from "@icrc/repositories";

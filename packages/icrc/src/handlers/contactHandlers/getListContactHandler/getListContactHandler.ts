@@ -1,4 +1,4 @@
-import { BaseHandler, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import { GetIcrcAllowanceForContactCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/allowances/getIcrcAllowanceForContactCacheHandler/getIcrcAllowanceForContactCacheHandler";
 import { AssetRepository } from "@icrc/repositories/persists/assetRepository/assetRepository";
 import { ContactRepository } from "@icrc/repositories/persists/contactRepository/contactRepository";

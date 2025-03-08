@@ -1,4 +1,4 @@
-import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import { AssetLocalCache } from "@icrc/repositories";
 import { AssetRepository } from "@icrc/repositories/persists/assetRepository/assetRepository";
 import { RemoveSubAccountForm, RemoveSubAccountResult } from "@icrc/types/forms";

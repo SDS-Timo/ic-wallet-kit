@@ -1,4 +1,4 @@
-import { HandlerWrapper } from "@ic-wallet-middleware/common";
+import { HandlerWrapper } from "@ic-wallet-kit/common";
 import { getAvailableAssets, GetAvailableAssetsHandler, getTokenMarket, GetTokenMarketHandler } from "@icrc/handlers";
 import { GetTokenListForm, GetTokenMarketInfo } from "@icrc/types";
 

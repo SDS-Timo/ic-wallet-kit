@@ -1,4 +1,4 @@
-import { BaseCacheDataHandlerV2, CacheDataError, ILogger, IdentifierService, LoadType } from "@ic-wallet-middleware/common";
+import { BaseCacheDataHandlerV2, CacheDataError, ILogger, IdentifierService, LoadType } from "@ic-wallet-kit/common";
 
 import { AllowanceLocalCache } from "@icrc/repositories/cache/allowanceLocalCache/allowanceLocalCache";
 import { AllowanceCacheInfo } from "@icrc/types/allowances/allowanceCacheInfo";

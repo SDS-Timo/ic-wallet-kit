@@ -1,6 +1,6 @@
 import { HttpAgent } from "@dfinity/agent";
 import { Principal } from "@dfinity/principal";
-import { FormResult, IdentifierService } from "@ic-wallet-middleware/common";
+import { FormResult, IdentifierService } from "@ic-wallet-kit/common";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { NotifyServiceHandler } from "@icrc/handlers/serviceHandlers/notifyServiceHandler/notifyServiceHandler";
 import { ServiceAssetCacheCreditHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/services/serviceAssetCreditCacheHandler/ServiceAssetCacheCreditHandler";

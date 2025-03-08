@@ -1,4 +1,4 @@
-import { BaseHandler, FormResult, ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { BaseHandler, FormResult, ILogger, LoadType } from "@ic-wallet-kit/common";
 import { SupportedAssetsCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/services/supportedAssetsCacheHandler/supportedAssetsCacheHandler";
 import { GetTokenSNSCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/tokens/getTokenSNSCacheHandler";
 import { LoadServiceAssetsHandler } from "@icrc/internalHandlers/service/loadServiceAssetsHandler";

@@ -1,4 +1,4 @@
-import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import { AssetRepository } from "@icrc/repositories/persists/assetRepository/assetRepository";
 import { UpdateAssetForm, UpdateAssetResult } from "@icrc/types/forms";
 import { Inject, Service } from "typedi";

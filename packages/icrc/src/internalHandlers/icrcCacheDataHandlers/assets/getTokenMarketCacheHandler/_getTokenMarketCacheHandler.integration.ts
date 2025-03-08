@@ -1,5 +1,5 @@
 import { HttpAgent } from "@dfinity/agent";
-import { IdentifierService, LoadType } from "@ic-wallet-middleware/common";
+import { IdentifierService, LoadType } from "@ic-wallet-kit/common";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
 import { GetTokenMarketCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/assets/getTokenMarketCacheHandler/getTokenMarketCacheHandler";
 import { TokenMarketLocalCache } from "@icrc/repositories/cache/tokenMarketLocalCache/tokenMarketLocalCache";

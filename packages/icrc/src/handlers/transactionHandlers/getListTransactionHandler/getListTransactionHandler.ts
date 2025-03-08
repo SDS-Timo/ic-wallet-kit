@@ -1,4 +1,4 @@
-import { BaseHandler, ILogger, PageResultEmptyKey, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, ILogger, PageResultEmptyKey, ValidationError } from "@ic-wallet-kit/common";
 import { AssetRepository } from "@icrc/repositories/persists/assetRepository/assetRepository";
 import { TransactionRepository } from "@icrc/repositories/persists/transactionRepository/transactionRepository";
 import { SubAccountId } from "@icrc/types";

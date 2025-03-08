@@ -1,4 +1,4 @@
-import { BaseHandler, getPropertyName, IdentifierService, ILogger, LoadType, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, IdentifierService, ILogger, LoadType, ValidationError } from "@ic-wallet-kit/common";
 import { SupportedAssetsCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/services/supportedAssetsCacheHandler/supportedAssetsCacheHandler";
 import { GetTokenSNSCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/tokens/getTokenSNSCacheHandler";
 import { buildAvailableAssetView } from "@icrc/maps/serviceMapper";

@@ -1,4 +1,4 @@
-import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, getPropertyName, ILogger, ValidationError } from "@ic-wallet-kit/common";
 import { ContactRepository } from "@icrc/repositories/persists/contactRepository/contactRepository";
 import { ContactModel } from "@icrc/types";
 import { ContactResult } from "@icrc/types/contacts/contactResult";

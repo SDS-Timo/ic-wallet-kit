@@ -1,5 +1,5 @@
 import { Principal } from "@dfinity/principal";
-import { BaseHandler, ILogger, IdentifierService, LoadType, ValidationError } from "@ic-wallet-middleware/common";
+import { BaseHandler, ILogger, IdentifierService, LoadType, ValidationError } from "@ic-wallet-kit/common";
 import { AssetMetaDataCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/assets/assetMetaDataCacheHandler/assetMetaDataCacheHandler";
 import { CheckAllowanceByPrincipalForm, CheckAllowanceByPrincipalResult } from "@icrc/types/forms";
 import { LedgerWrapper } from "@icrc/wrappers/icrc/ledgerWrapper/ledgerWrapper";

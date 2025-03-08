@@ -1,4 +1,4 @@
-﻿import { ILogger, IStorage, IdentifierService, ValidationError, jsonParse, jsonStringify } from "@ic-wallet-middleware/common";
+﻿import { ILogger, IStorage, IdentifierService, ValidationError, jsonParse, jsonStringify } from "@ic-wallet-kit/common";
 import { LocalCacheAssetModel, LocalCacheSubAccountModel, SubAccountId } from "@icrc/types";
 import { Inject, Service } from "typedi";
 

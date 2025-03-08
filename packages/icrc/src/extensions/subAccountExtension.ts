@@ -1,4 +1,4 @@
-import { hexToNumber } from "@ic-wallet-middleware/common";
+import { hexToNumber } from "@ic-wallet-kit/common";
 import { WalletSubAccount } from "@icrc/types/wallets/walletSubAccount";
 import bigInt from "big-integer";
 

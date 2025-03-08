@@ -1,7 +1,7 @@
 import { AccountIdentifier, SubAccount as SubAccountNNS } from "@dfinity/ledger-icp";
 import { SubAccount, TransactionWithId } from "@dfinity/ledger-icrc/dist/candid/icrc_index-ng";
 import { Principal } from "@dfinity/principal";
-import { IdentifierService, PageResultEmptyKey } from "@ic-wallet-middleware/common";
+import { IdentifierService, PageResultEmptyKey } from "@ic-wallet-kit/common";
 import { TransactionsRepositoryError } from "@icrc/errors/transactionsRepositoryError";
 import { SubAccountId } from "@icrc/types";
 import { OperationStatusEnum, OperationTypeEnum, TransactionTypeEnum } from "@icrc/types/enums";

@@ -1,5 +1,5 @@
 import { Principal } from "@dfinity/principal";
-import { hexToUint8Array } from "@ic-wallet-middleware/common";
+import { hexToUint8Array } from "@ic-wallet-kit/common";
 import { SubAccountIdError } from "@icrc/errors";
 import { SubAccountId } from "@icrc/types/assets/subAccountId";
 

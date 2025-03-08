@@ -1,4 +1,4 @@
-import { BaseHandler, ILogger, LoadType } from "@ic-wallet-middleware/common";
+import { BaseHandler, ILogger, LoadType } from "@ic-wallet-kit/common";
 import { LoadServiceAssetsHandler } from "@icrc/internalHandlers/service/loadServiceAssetsHandler";
 import { AssetRepository } from "@icrc/repositories";
 import { ServiceRepository } from "@icrc/repositories/persists/serviceRepository/serviceRepository";
