@@ -6,7 +6,7 @@ export const to32bits = (num: number) => {
     return Array.from(new Uint8Array(b));
 };
 
-export const hexToUint8Array = (hex: string) => {
+export const hexToUint8Array = (hex: string): Uint8Array => {
     const zero = bigInt(0);
     const n256 = bigInt(256);
     let bigNumber = hexToNumber(hex);
