@@ -1,5 +1,5 @@
 import { LocalDataStorage } from "@app/storages/localDataStorage";
-import { jsonParse, jsonStringify } from "@ic-wallet-middleware/common";
+import { jsonParse, jsonStringify } from "@ic-wallet-kit/common";
 
 
 export abstract class BaseConsoleLocalStorage<T> {

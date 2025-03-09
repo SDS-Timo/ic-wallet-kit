@@ -1,5 +1,5 @@
 import { BaseConsoleLocalStorage } from "@app/storages/baseConsoleLocalStorage";
-import { IServiceDataStorage, ServiceModel } from "@ic-wallet-middleware/icrc";
+import { IServiceDataStorage, ServiceModel } from "@ic-wallet-kit/icrc";
 
 
 export class ServiceConsoleStorage extends BaseConsoleLocalStorage<ServiceModel> implements IServiceDataStorage {

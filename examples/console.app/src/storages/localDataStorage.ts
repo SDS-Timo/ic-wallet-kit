@@ -1,4 +1,4 @@
-import { IStorage, IdentifierService } from "@ic-wallet-middleware/common";
+import { IStorage, IdentifierService } from "@ic-wallet-kit/common";
 import { LocalStorage } from "node-localstorage";
 
 export class LocalDataStorage implements IStorage {

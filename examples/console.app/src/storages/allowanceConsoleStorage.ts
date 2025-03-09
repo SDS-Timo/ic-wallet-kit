@@ -1,5 +1,5 @@
 import { BaseConsoleLocalStorage } from "@app/storages/baseConsoleLocalStorage";
-import { AllowanceStorageModel, IAllowanceDataStorage } from "@ic-wallet-middleware/icrc";
+import { AllowanceStorageModel, IAllowanceDataStorage } from "@ic-wallet-kit/icrc";
 
 
 export class AllowanceConsoleStorage extends BaseConsoleLocalStorage<AllowanceStorageModel> implements IAllowanceDataStorage {

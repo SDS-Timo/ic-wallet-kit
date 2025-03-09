@@ -1,5 +1,5 @@
-import { BaseHandler, IFormError } from "@ic-wallet-middleware/common";
-import { IcrcRefreshService } from "@ic-wallet-middleware/icrc";
+import { BaseHandler, IFormError } from "@ic-wallet-kit/common";
+import { IcrcRefreshService } from "@ic-wallet-kit/icrc";
 import Container, { Service } from "typedi";
 
 export interface IcrcRefreshForm {

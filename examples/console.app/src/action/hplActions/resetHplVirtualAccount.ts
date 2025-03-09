@@ -1,5 +1,5 @@
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
-import { ResetHplVirtualAccountHandler } from "@ic-wallet-middleware/hpl";
+import { ResetHplVirtualAccountHandler } from "@ic-wallet-kit/hpl";
 
 import Container from "typedi";
 

@@ -1,6 +1,6 @@
 import { consoleOutput, consoleOutputJson } from "@app/utils/consoleOutput";
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetListAssetHandler } from "@ic-wallet-middleware/icrc";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetListAssetHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 export const getAssets = async () => {

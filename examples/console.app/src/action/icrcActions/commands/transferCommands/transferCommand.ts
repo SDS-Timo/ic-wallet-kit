@@ -2,8 +2,8 @@ import { BaseActionModel, Constructable } from "@app/action/baseActionModel";
 import { transferName } from "@app/action/icrcActions/commands/parentName";
 import { PrincipalInput } from "@app/action/models/principalInput";
 import { OptionalParamModel } from "@app/types/optionalParamModel";
-import { AmountProvider, IdentifierService, LoadType } from "@ic-wallet-middleware/common";
-import { GetListAssetHandler, SendTransactionForm, SendTransactionHandler, SendTransactionResult, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { AmountProvider, IdentifierService, LoadType } from "@ic-wallet-kit/common";
+import { GetListAssetHandler, SendTransactionForm, SendTransactionHandler, SendTransactionResult, SubAccountId } from "@ic-wallet-kit/icrc";
 
 import Container from "typedi";
 

@@ -1,5 +1,5 @@
 import { AnonymousIdentity, HttpAgent } from "@dfinity/agent";
-import { IdentifierService, WatchOnlyIdentity } from "@ic-wallet-middleware/common";
+import { IdentifierService, WatchOnlyIdentity } from "@ic-wallet-kit/common";
 import Container from "typedi";
 
 export const runWatchOnly = async () => {

@@ -2,7 +2,7 @@ import { BaseActionModel, Constructable } from "@app/action/baseActionModel";
 import { Icrc1PrincipalForm, Icrc1PrincipalHandler, Icrc1PrincipalResult } from "@app/action/icrcActions/handlers/icrc1PrincipalHandler";
 import { OptionalParamModel } from "@app/types/optionalParamModel";
 import { consoleOutput } from "@app/utils/consoleOutput";
-import { SubAccountId } from "@ic-wallet-middleware/icrc";
+import { SubAccountId } from "@ic-wallet-kit/icrc";
 
 export class Icrc1Principal extends BaseActionModel<Icrc1PrincipalHandler, Icrc1PrincipalForm, Icrc1PrincipalResult, Icrc1PrincipalConsoleForm> {
 

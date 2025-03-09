@@ -1,7 +1,7 @@
 import { BaseActionModel, Constructable } from "@app/action/baseActionModel";
 import { assetName } from "@app/action/icrcActions/commands/parentName";
 import { OptionalParamModel } from "@app/types/optionalParamModel";
-import { CheckAssetForm, CheckAssetHandler, ManualAssetView } from "@ic-wallet-middleware/icrc";
+import { CheckAssetForm, CheckAssetHandler, ManualAssetView } from "@ic-wallet-kit/icrc";
 
 export class AssetTestConsoleForm {
 

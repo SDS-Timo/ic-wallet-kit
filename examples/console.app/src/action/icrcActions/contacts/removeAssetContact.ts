@@ -1,5 +1,5 @@
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
-import { RemoveAssetContactHandler } from "@ic-wallet-middleware/icrc";
+import { RemoveAssetContactHandler } from "@ic-wallet-kit/icrc";
 
 import Container from "typedi";
 

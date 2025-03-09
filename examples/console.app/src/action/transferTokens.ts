@@ -1,6 +1,6 @@
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
 import { Principal } from "@dfinity/principal";
-import { SendTransactionHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { SendTransactionHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 export const transferTokens = async (

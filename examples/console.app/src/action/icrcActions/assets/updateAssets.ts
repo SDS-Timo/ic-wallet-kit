@@ -1,6 +1,6 @@
 //import { AddAssetHandler } from "@hpl-wallet-middleware";
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
-import { UpdateAssetHandler } from "@ic-wallet-middleware/icrc";
+import { UpdateAssetHandler } from "@ic-wallet-kit/icrc";
 
 import Container from "typedi";
 

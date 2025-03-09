@@ -2,7 +2,7 @@ import { BaseActionModel, Constructable } from "@app/action/baseActionModel";
 import { allowanceName } from "@app/action/icrcActions/commands/parentName";
 import { OptionalParamModel } from "@app/types/optionalParamModel";
 import { consoleOutput } from "@app/utils/consoleOutput";
-import { SubAccountId, UpdateAllowanceForm, UpdateAllowanceHandler, UpdateAllowanceResult } from "@ic-wallet-middleware/icrc";
+import { SubAccountId, UpdateAllowanceForm, UpdateAllowanceHandler, UpdateAllowanceResult } from "@ic-wallet-kit/icrc";
 
 export class AllowanceUpdateConsoleForm {
 

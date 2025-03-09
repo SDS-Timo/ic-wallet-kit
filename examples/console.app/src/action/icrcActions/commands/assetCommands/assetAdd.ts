@@ -4,8 +4,8 @@ import { assetName } from "@app/action/icrcActions/commands/parentName";
 import { ConsoleValidationError } from "@app/error/consoleValidationError";
 import { OptionalParamModel } from "@app/types/optionalParamModel";
 import { consoleOutput } from "@app/utils/consoleOutput";
-import { LoadType } from "@ic-wallet-middleware/common";
-import { AddAssetForm, AddAssetHandler, AddAssetResult, GetAvailableAssetsHandler } from "@ic-wallet-middleware/icrc";
+import { LoadType } from "@ic-wallet-kit/common";
+import { AddAssetForm, AddAssetHandler, AddAssetResult, GetAvailableAssetsHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 export class AssetAddConsoleForm {

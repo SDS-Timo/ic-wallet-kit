@@ -3,8 +3,8 @@ import { transferName } from "@app/action/icrcActions/commands/parentName";
 import { PrincipalInput } from "@app/action/models/principalInput";
 import { OptionalParamModel } from "@app/types/optionalParamModel";
 import { consoleOutput } from "@app/utils/consoleOutput";
-import { IdentifierService } from "@ic-wallet-middleware/common";
-import { AllowanceResult, SubAccountId, TransferFromAllowanceForm, TransferFromAllowanceHandler } from "@ic-wallet-middleware/icrc";
+import { IdentifierService } from "@ic-wallet-kit/common";
+import { AllowanceResult, SubAccountId, TransferFromAllowanceForm, TransferFromAllowanceHandler } from "@ic-wallet-kit/icrc";
 
 import Container from "typedi";
 

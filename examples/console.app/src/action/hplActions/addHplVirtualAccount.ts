@@ -1,6 +1,6 @@
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
 import { Principal } from "@dfinity/principal";
-import { AddHplVirtualAccountHandler } from "@ic-wallet-middleware/hpl";
+import { AddHplVirtualAccountHandler } from "@ic-wallet-kit/hpl";
 
 import Container from "typedi";
 

@@ -7,8 +7,8 @@ import { OptionalParamModel } from "@app/types/optionalParamModel";
 import { consoleOutput, consoleOutputFormJson } from "@app/utils/consoleOutput";
 import { parseToIcrcAccountParam } from "@app/utils/parse.utils";
 import { Principal } from "@dfinity/principal";
-import { BaseHandler, FormResult, IFormError } from "@ic-wallet-middleware/common";
-import { SubAccountId } from "@ic-wallet-middleware/icrc";
+import { BaseHandler, FormResult, IFormError } from "@ic-wallet-kit/common";
+import { SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 export declare type Constructable<T> = new (...args: any[]) => T;

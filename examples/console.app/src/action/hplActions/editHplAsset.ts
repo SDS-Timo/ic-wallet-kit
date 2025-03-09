@@ -1,5 +1,5 @@
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
-import { EditHplAssetHandler } from "@ic-wallet-middleware/hpl";
+import { EditHplAssetHandler } from "@ic-wallet-kit/hpl";
 
 import Container from "typedi";
 

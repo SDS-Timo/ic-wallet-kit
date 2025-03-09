@@ -2,7 +2,7 @@ import { BaseActionModel, Constructable } from "@app/action/baseActionModel";
 import { contactName } from "@app/action/icrcActions/commands/parentName";
 import { OptionalParamModel } from "@app/types/optionalParamModel";
 import { consoleOutput } from "@app/utils/consoleOutput";
-import { AddAssetContactForm, AddAssetContactHandler, ContactResult } from "@ic-wallet-middleware/icrc";
+import { AddAssetContactForm, AddAssetContactHandler, ContactResult } from "@ic-wallet-kit/icrc";
 
 export class ContactAddAssetConsoleForm {
 

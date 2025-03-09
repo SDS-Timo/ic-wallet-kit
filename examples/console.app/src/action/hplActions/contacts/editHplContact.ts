@@ -1,6 +1,6 @@
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
 import { Principal } from "@dfinity/principal";
-import { EditHplContactHandler } from "@ic-wallet-middleware/hpl";
+import { EditHplContactHandler } from "@ic-wallet-kit/hpl";
 
 import Container from "typedi";
 

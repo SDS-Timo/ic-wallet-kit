@@ -1,5 +1,5 @@
 import { consoleOutput, consoleOutputFormJson } from "@app/utils/consoleOutput";
-import { GetListTransactionHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { GetListTransactionHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 
 
 import Container from "typedi";

@@ -4,8 +4,8 @@ import { BaseCommand } from "@app/types/baseCommand";
 import { consoleOutput } from "@app/utils/consoleOutput";
 import { HttpAgent, Identity } from "@dfinity/agent";
 import { Ed25519KeyIdentity } from "@dfinity/identity";
-import { IdentifierService, LoadType } from "@ic-wallet-middleware/common";
-import { GetListAssetHandler } from "@ic-wallet-middleware/icrc";
+import { IdentifierService, LoadType } from "@ic-wallet-kit/common";
+import { GetListAssetHandler } from "@ic-wallet-kit/icrc";
 import repl from "repl";
 import Container from "typedi";
 

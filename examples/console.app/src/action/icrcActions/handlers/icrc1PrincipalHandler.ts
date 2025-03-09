@@ -1,6 +1,6 @@
 import { Principal } from "@dfinity/principal";
-import { BaseHandler, IFormError } from "@ic-wallet-middleware/common";
-import { PrincipalProvider, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { BaseHandler, IFormError } from "@ic-wallet-kit/common";
+import { PrincipalProvider, SubAccountId } from "@ic-wallet-kit/icrc";
 import { Service } from "typedi";
 
 export interface Icrc1PrincipalForm {

@@ -1,7 +1,7 @@
 
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
 import { Principal } from "@dfinity/principal";
-import { SubAccountId, TransferToServiceHandler } from "@ic-wallet-middleware/icrc";
+import { SubAccountId, TransferToServiceHandler } from "@ic-wallet-kit/icrc";
 
 import Container from "typedi";
 

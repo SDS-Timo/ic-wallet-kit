@@ -1,6 +1,6 @@
 
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
-import { AddServiceHandler } from "@ic-wallet-middleware/icrc";
+import { AddServiceHandler } from "@ic-wallet-kit/icrc";
 
 import Container from "typedi";
 

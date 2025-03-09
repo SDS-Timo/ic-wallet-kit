@@ -1,5 +1,5 @@
 import { consoleOutputJson } from "@app/utils/consoleOutput";
-import { CheckAssetHandler } from "@ic-wallet-middleware/icrc";
+import { CheckAssetHandler } from "@ic-wallet-kit/icrc";
 
 import Container from "typedi";
 

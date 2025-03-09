@@ -1,8 +1,8 @@
 import { BaseActionModel, Constructable } from "@app/action/baseActionModel";
 import { assetName } from "@app/action/icrcActions/commands/parentName";
 import { OptionalParamModel } from "@app/types/optionalParamModel";
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetAvailableAssetsHandler, GetTokenListForm, GetTokenListResult } from "@ic-wallet-middleware/icrc";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetAvailableAssetsHandler, GetTokenListForm, GetTokenListResult } from "@ic-wallet-kit/icrc";
 
 export class AssetDirConsoleForm {
 

@@ -1,13 +1,13 @@
 import { LocalDataStorage } from "@app/storages/localDataStorage";
 import { consoleKeyOutput, consoleOutputJson } from "@app/utils/consoleOutput";
-import { IdentifierService, ILogger, IStorage, RefreshServiceConfiguration, ReplicationConfiguration } from "@ic-wallet-middleware/common";
+import { IdentifierService, ILogger, IStorage, RefreshServiceConfiguration, ReplicationConfiguration } from "@ic-wallet-kit/common";
 import {
     CanisterService,
     HplInitializer
-} from "@ic-wallet-middleware/hpl";
+} from "@ic-wallet-kit/hpl";
 import {
     IcrcInitializer
-} from "@ic-wallet-middleware/icrc";
+} from "@ic-wallet-kit/icrc";
 import "reflect-metadata";
 import { getRxStorageMemory } from "rxdb/plugins/storage-memory";
 import Container from "typedi";

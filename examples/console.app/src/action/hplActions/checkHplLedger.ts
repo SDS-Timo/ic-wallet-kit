@@ -1,5 +1,5 @@
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
-import { CheckLedgerPrincipalHandler } from "@ic-wallet-middleware/hpl";
+import { CheckLedgerPrincipalHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 

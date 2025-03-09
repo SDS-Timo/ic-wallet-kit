@@ -4,8 +4,8 @@ import { PrincipalInput } from "@app/action/models/principalInput";
 import { ConsoleValidationError } from "@app/error/consoleValidationError";
 import { OptionalParamModel } from "@app/types/optionalParamModel";
 import { consoleOutput } from "@app/utils/consoleOutput";
-import { IdentifierService } from "@ic-wallet-middleware/common";
-import { AddAllowanceForm, AddAllowanceHandler, AllowanceResult, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { IdentifierService } from "@ic-wallet-kit/common";
+import { AddAllowanceForm, AddAllowanceHandler, AllowanceResult, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 export class AllowanceAddConsoleForm {

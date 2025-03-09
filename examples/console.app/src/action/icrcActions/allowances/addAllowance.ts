@@ -1,5 +1,5 @@
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
-import { AddAllowanceHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { AddAllowanceHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 export const addAllowance = async (ledgerAddress: string,

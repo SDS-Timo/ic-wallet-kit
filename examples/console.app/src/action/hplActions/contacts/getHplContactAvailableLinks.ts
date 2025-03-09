@@ -1,7 +1,7 @@
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
 import { Principal } from "@dfinity/principal";
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetHplContactAvailableLinkHandler } from "@ic-wallet-middleware/hpl";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetHplContactAvailableLinkHandler } from "@ic-wallet-kit/hpl";
 
 import Container from "typedi";
 

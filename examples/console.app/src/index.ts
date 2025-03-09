@@ -24,7 +24,7 @@ import { removeSubAccountContact } from "@app/action/icrcActions/contacts/remove
 import { transferTokens } from "@app/action/transferTokens";
 import { App } from "@app/main";
 import { HttpAgent, Identity } from "@dfinity/agent";
-import { IdentifierService } from "@ic-wallet-middleware/common";
+import { IdentifierService } from "@ic-wallet-kit/common";
 
 
 

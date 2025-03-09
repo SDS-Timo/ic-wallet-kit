@@ -2,7 +2,7 @@ import { BaseActionModel } from "@app/action/baseActionModel";
 import { contactName } from "@app/action/icrcActions/commands/parentName";
 import { OptionalParamModel } from "@app/types/optionalParamModel";
 import { consoleOutput } from "@app/utils/consoleOutput";
-import { ContactResult, RemoveContactForm, RemoveContactHandler } from "@ic-wallet-middleware/icrc";
+import { ContactResult, RemoveContactForm, RemoveContactHandler } from "@ic-wallet-kit/icrc";
 import { Constructable } from "typedi";
 
 export class ContactRemoveConsoleForm {

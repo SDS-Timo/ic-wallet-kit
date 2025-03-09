@@ -1,7 +1,7 @@
 
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
-import { TransferHandler } from "@ic-wallet-middleware/hpl";
-import { AccountTransferModel, VirtualAccountTransferModel } from "@ic-wallet-middleware/hpl/dist/forms/transfers/hplTransferForm";
+import { TransferHandler } from "@ic-wallet-kit/hpl";
+import { AccountTransferModel, VirtualAccountTransferModel } from "@ic-wallet-kit/hpl/dist/forms/transfers/hplTransferForm";
 
 import Container from "typedi";
 

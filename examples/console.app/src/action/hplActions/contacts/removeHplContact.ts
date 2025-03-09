@@ -1,7 +1,7 @@
 
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
 import { Principal } from "@dfinity/principal";
-import { RemoveHplContactHandler } from "@ic-wallet-middleware/hpl";
+import { RemoveHplContactHandler } from "@ic-wallet-kit/hpl";
 
 import Container from "typedi";
 

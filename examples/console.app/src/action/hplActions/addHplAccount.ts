@@ -1,6 +1,6 @@
 
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
-import { AddHplAccountHandler } from "@ic-wallet-middleware/hpl";
+import { AddHplAccountHandler } from "@ic-wallet-kit/hpl";
 
 import Container from "typedi";
 

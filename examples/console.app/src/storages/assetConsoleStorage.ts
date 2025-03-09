@@ -1,5 +1,5 @@
 import { BaseConsoleLocalStorage } from "@app/storages/baseConsoleLocalStorage";
-import { IAssetDataStorage, WalletAsset } from "@ic-wallet-middleware/icrc";
+import { IAssetDataStorage, WalletAsset } from "@ic-wallet-kit/icrc";
 
 
 export class AssetConsoleStorage extends BaseConsoleLocalStorage<WalletAsset> implements IAssetDataStorage {

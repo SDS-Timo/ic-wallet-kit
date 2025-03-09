@@ -4,7 +4,7 @@ import { subAccountName } from "@app/action/icrcActions/commands/parentName";
 import { OptionalParamModel } from "@app/types/optionalParamModel";
 import { consoleOutput } from "@app/utils/consoleOutput";
 
-import { AddSubAccountForm, AddSubAccountHandler, AddSubAccountResult, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { AddSubAccountForm, AddSubAccountHandler, AddSubAccountResult, SubAccountId } from "@ic-wallet-kit/icrc";
 
 export class AccountAddConsoleForm {
 

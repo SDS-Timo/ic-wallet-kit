@@ -1,6 +1,6 @@
 import { consoleOutputJson } from "@app/utils/consoleOutput";
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetHplAssetListHandler } from "@ic-wallet-middleware/hpl";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetHplAssetListHandler } from "@ic-wallet-kit/hpl";
 
 import Container from "typedi";
 

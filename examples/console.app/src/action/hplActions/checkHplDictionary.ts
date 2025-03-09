@@ -1,5 +1,5 @@
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
-import { CheckDictionaryPrincipalHandler } from "@ic-wallet-middleware/hpl";
+import { CheckDictionaryPrincipalHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 

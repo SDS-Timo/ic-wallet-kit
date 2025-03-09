@@ -4,8 +4,8 @@ import { PrincipalInput } from "@app/action/models/principalInput";
 import { ConsoleValidationError } from "@app/error/consoleValidationError";
 import { OptionalParamModel } from "@app/types/optionalParamModel";
 import { consoleOutput } from "@app/utils/consoleOutput";
-import { AmountProvider, IdentifierService } from "@ic-wallet-middleware/common";
-import { CheckAllowanceByPrincipalForm, CheckAllowanceByPrincipalHandler, CheckAllowanceByPrincipalResult, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { AmountProvider, IdentifierService } from "@ic-wallet-kit/common";
+import { CheckAllowanceByPrincipalForm, CheckAllowanceByPrincipalHandler, CheckAllowanceByPrincipalResult, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 export class AllowanceCheckByPrincipalConsoleForm {

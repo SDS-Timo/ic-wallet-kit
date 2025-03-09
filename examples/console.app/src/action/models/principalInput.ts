@@ -1,5 +1,5 @@
 import { Principal } from "@dfinity/principal";
-import { SubAccountId } from "@ic-wallet-middleware/icrc";
+import { SubAccountId } from "@ic-wallet-kit/icrc";
 
 export class PrincipalInput {
 

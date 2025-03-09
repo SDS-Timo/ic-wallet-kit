@@ -1,5 +1,5 @@
 import { consoleOutputFormJson } from "@app/utils/consoleOutput";
-import { EditSubAccountContactHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { EditSubAccountContactHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 
 
 import Container from "typedi";
