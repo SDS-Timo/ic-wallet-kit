@@ -44,7 +44,7 @@
     "moment": "2.30.1",
     "reflect-metadata": "^0.2.2",
     "rxdb": "^16.8.0",
-    "rxjs": "7.8.1",
+    "rxjs": "7.8.2",
     "typedi": "0.10.0"
   },
   "devDependencies": {
