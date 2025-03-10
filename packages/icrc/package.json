@@ -16,10 +16,10 @@
     "lib": "dist"
   },
   "keywords": [
-    "hpl"
+     "icp", "wallet", "rxdb", "icrc-1"
   ],
-  "author": "SDS",
-  "license": "MIT",
+  "author": "MR Research",
+  "license": "Apache 2.0",
   "scripts": {
     "rmdir": "rm -rf ./dist",
     "build": "npm run rmdir && tsc && tsc-alias",

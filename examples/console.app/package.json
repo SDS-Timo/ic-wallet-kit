@@ -12,8 +12,8 @@
     "install-force": "npm run rmNodeFolder && npm install"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "MR Research",
+  "license": "Apache 2.0",
   "dependencies": {
     "@dfinity/agent": "2.3.0",
     "@dfinity/identity-secp256k1": "2.3.0",

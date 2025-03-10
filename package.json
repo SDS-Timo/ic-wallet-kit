@@ -8,8 +8,8 @@
     "type": "git",
     "url": "git+https://github.com/research-ag/ic-wallet-kit.git"
   },
-  "author": "SDS",
-  "license": "MIT",
+  "author": "MR Research",
+  "license": "Apache 2.0",
   "scripts": {
     "build-common": "cd packages/common && npm run build-publish && cd ../..",
     "common-publish-force": "cd packages/common && npm run publish-force && cd ../..",
