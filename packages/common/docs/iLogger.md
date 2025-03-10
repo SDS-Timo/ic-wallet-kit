@@ -3,7 +3,7 @@ Interface for user custom logger
 
 ### Example
 ```typescript
-import { ILogger } from "@ic-wallet-middleware/common";
+import { ILogger } from "@ic-wallet-kit/common";
 
 export class Logger implements ILogger {
     log(message: string | undefined, params?: any[]): void {

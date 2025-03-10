@@ -51,7 +51,7 @@ Add service to current user service list.
 ### Examples
 
 ```typescript
-import { AddServiceAssetsHandler } from "@ic-wallet-middleware/icrc";
+import { AddServiceAssetsHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -146,7 +146,7 @@ Add service to current user service list.
 ### Examples
 
 ```typescript
-import { AddServiceHandler } from "@ic-wallet-middleware/icrc";
+import { AddServiceHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -259,7 +259,7 @@ Check if service canister exist.
 ### Examples
 
 ```typescript
-import { CheckServicePrincipalHandler } from "@ic-wallet-middleware/icrc";
+import { CheckServicePrincipalHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -316,7 +316,7 @@ Edit service name.
 ### Examples
 
 ```typescript
-import { EditServiceNameHandler } from "@ic-wallet-middleware/icrc";
+import { EditServiceNameHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -380,8 +380,8 @@ Get asset list for current user.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetListServiceHandler } from "@ic-wallet-middleware/icrc";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetListServiceHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -496,7 +496,7 @@ Transfer to service confirmation.
 ### Examples
 
 ```typescript
-import { NotifyServiceHandler } from "@ic-wallet-middleware/icrc";
+import { NotifyServiceHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -558,7 +558,7 @@ Remove asset from service list.
 ### Examples
 
 ```typescript
-import { RemoveServiceAssetsHandler } from "@ic-wallet-middleware/icrc";
+import { RemoveServiceAssetsHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -614,7 +614,7 @@ Remove service from service list.
 ### Examples
 
 ```typescript
-import { RemoveServiceHandler } from "@ic-wallet-middleware/icrc";
+import { RemoveServiceHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -678,7 +678,7 @@ Transfer service to account.
 ### Examples
 
 ```typescript
-import { TransferFromServiceHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { TransferFromServiceHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -746,7 +746,7 @@ Transfer from account to service.
 ### Examples
 
 ```typescript
-import { TransferFromServiceHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { TransferFromServiceHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {

@@ -105,8 +105,8 @@ Public functions for work with ICRC handlers.
 ### Example
 
 ```typescript
-import { GetAssetListForm, getListAsset } from "@ic-wallet-middleware/icrc";
-import { LoadType } from "@ic-wallet-middleware/common";
+import { GetAssetListForm, getListAsset } from "@ic-wallet-kit/icrc";
+import { LoadType } from "@ic-wallet-kit/common";
 
 (() => {
     const form: GetAssetListForm = {

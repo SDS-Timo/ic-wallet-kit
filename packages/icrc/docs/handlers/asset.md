@@ -50,7 +50,7 @@ Add asset to current user asset list.
 ### Examples
 
 ```typescript
-import { AddAssetHandler } from "@ic-wallet-middleware/icrc";
+import { AddAssetHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -111,7 +111,7 @@ Add sub account to current user asset.
 ### Examples
 
 ```typescript
-import { AddSubAccountHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { AddSubAccountHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -178,7 +178,7 @@ Check if asset canister exist.
 ### Examples
 
 ```typescript
-import { CheckAssetHandler } from "@ic-wallet-middleware/icrc";
+import { CheckAssetHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -259,8 +259,8 @@ Get asset list for current user.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetListAssetHandler } from "@ic-wallet-middleware/icrc";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetListAssetHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -374,7 +374,7 @@ Remove asset from current user asset list.
 ### Examples
 
 ```typescript
-import { RemoveAssetHandler } from "@ic-wallet-middleware/icrc";
+import { RemoveAssetHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -430,7 +430,7 @@ Remove sub account from current user asset .
 ### Examples
 
 ```typescript
-import { RemoveSubAccountHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { RemoveSubAccountHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -489,7 +489,7 @@ Update current user asset info.
 ### Examples
 
 ```typescript
-import { UpdateAssetHandler } from "@ic-wallet-middleware/icrc";
+import { UpdateAssetHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -549,7 +549,7 @@ Update current user sub account info.
 ### Examples
 
 ```typescript
-import { UpdateSubAccountHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { UpdateSubAccountHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {

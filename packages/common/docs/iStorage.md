@@ -3,7 +3,7 @@ Interface to user custom storage or browser localStorage
 
 ### Example
 ```typescript
-import { IStorage } from "@ic-wallet-middleware/common";
+import { IStorage } from "@ic-wallet-kit/common";
 
 interface Item {
     key: string;

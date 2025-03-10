@@ -62,7 +62,7 @@ Add virtual account to current user virtual account list.
 
 ```typescript
 import { Principal } from "@dfinity/principal";
-import { AddHplVirtualAccountHandler } from "@ic-wallet-middleware/hpl";
+import { AddHplVirtualAccountHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -136,8 +136,8 @@ Check and verification link code.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { CheckLinkCodeHandler } from "@ic-wallet-middleware/hpl";
+import { LoadType } from "@ic-wallet-kit/common";
+import { CheckLinkCodeHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -206,7 +206,7 @@ Delete virtual account from HPL service and from Storage user list.
 ### Examples
 
 ```typescript
-import { DeleteHplVirtualAccountHandler } from "@ic-wallet-middleware/hpl";
+import { DeleteHplVirtualAccountHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -278,7 +278,7 @@ Edit virtual account to current user virtual account list.
 ### Examples
 
 ```typescript
-import { EditHplVirtualAccountHandler } from "@ic-wallet-middleware/hpl";
+import { EditHplVirtualAccountHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -355,8 +355,8 @@ Get virtual account list for current user.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetHplAccountListHandler } from "@ic-wallet-middleware/hpl";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetHplAccountListHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -434,7 +434,7 @@ Reset of virtual account amount.
 ### Examples
 
 ```typescript
-import { ResetHplVirtualAccountHandler } from "@ic-wallet-middleware/hpl";
+import { ResetHplVirtualAccountHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {

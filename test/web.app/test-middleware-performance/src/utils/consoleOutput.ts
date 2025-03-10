@@ -1,4 +1,4 @@
-import { FormResult } from "@ic-wallet-middleware/common";
+import { FormResult } from "@ic-wallet-kit/common";
 
 export const consoleOutput = (message: any): void => {
     console.log(message);

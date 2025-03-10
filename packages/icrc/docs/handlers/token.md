@@ -48,8 +48,8 @@ Get all assets from external resources exclude exist assets for current user.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetAvailableAssetsHandler } from "@ic-wallet-middleware/icrc";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetAvailableAssetsHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -139,8 +139,8 @@ Get info for all tokens in market.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetTokenMarketHandler } from "@ic-wallet-middleware/icrc";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetTokenMarketHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {

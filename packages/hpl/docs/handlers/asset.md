@@ -42,7 +42,7 @@ Edit asset to current user asset list.
 ### Examples
 
 ```typescript
-import { EditHplAssetHandler } from "@ic-wallet-middleware/hpl";
+import { EditHplAssetHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -107,8 +107,8 @@ Get asset list for current user.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetHplAssetListHandler } from "@ic-wallet-middleware/hpl";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetHplAssetListHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {

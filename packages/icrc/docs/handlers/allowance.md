@@ -50,7 +50,7 @@ Add allowance to ICRC service and to Storage user list.
 ### Examples
 
 ```typescript
-import { AddAllowanceHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { AddAllowanceHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -116,7 +116,7 @@ Check allowance by principal.
 ### Examples
 
 ```typescript
-import { CheckAllowanceByPrincipalHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { CheckAllowanceByPrincipalHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -195,7 +195,7 @@ Check allowance by current user principal.
 ### Examples
 
 ```typescript
-import { CheckAllowanceHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { CheckAllowanceHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -276,8 +276,8 @@ Get allowance list by selected asset from Storage.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetListAllowanceHandler } from "@ic-wallet-middleware/icrc";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetListAllowanceHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -351,7 +351,7 @@ Remove allowance from ICRC service and from Storage user list.
 
 ```typescript
 
-import { RemoveAllowanceHandler, SubAccountId} from "@ic-wallet-middleware/icrc";
+import { RemoveAllowanceHandler, SubAccountId} from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -415,7 +415,7 @@ Tranfer token from allowance to account .
 
 ```typescript
 import { Principal } from "@dfinity/principal";
-import { SubAccountId, TransferFromAllowanceHandler } from "@ic-wallet-middleware/icrc";
+import { SubAccountId, TransferFromAllowanceHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -487,7 +487,7 @@ Update allowance on ICRC service and on Storage user list.
 ### Examples
 
 ```typescript
-import { SubAccountId, UpdateAllowanceHandler } from "@ic-wallet-middleware/icrc";
+import { SubAccountId, UpdateAllowanceHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {

@@ -1,8 +1,8 @@
 import { HttpAgent, Identity } from "@dfinity/agent";
 import { Ed25519KeyIdentity } from "@dfinity/identity";
 import { IcrcLedgerCanister } from "@dfinity/ledger-icrc";
-import { IdentifierService, to32bits } from "@ic-wallet-middleware/common";
-import { LedgerWrapper } from "@ic-wallet-middleware/icrc";
+import { IdentifierService, to32bits } from "@ic-wallet-kit/common";
+import { LedgerWrapper } from "@ic-wallet-kit/icrc";
 import { startTransition, useEffect, useState } from 'react';
 
 const BalancesLoader = () => {

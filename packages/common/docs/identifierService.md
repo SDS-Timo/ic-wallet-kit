@@ -14,7 +14,7 @@ const identifierService = new IdentifierService(agent, identity)
 ```typescript
 import { HttpAgent } from "@dfinity/agent";
 import { Secp256k1KeyIdentity } from "@dfinity/identity-secp256k1";
-import { IdentifierService } from "@ic-wallet-middleware/common";
+import { IdentifierService } from "@ic-wallet-kit/common";
 
 (async () => {
     const identity = Secp256k1KeyIdentity.fromSeedPhrase("phrase");

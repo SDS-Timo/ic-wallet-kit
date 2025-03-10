@@ -6,12 +6,12 @@
   "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SDS-Timo/hpl-middleware-wallet.git"
+    "url": "git+https://github.com/research-ag/ic-wallet-kit.git"
   },
   "bugs": {
-    "url": "https://github.com/SDS-Timo/hpl-middleware-wallet/issues"
+    "url": "https://github.com/research-ag/ic-wallet-kit/issues"
   },
-  "homepage": "https://github.com/SDS-Timo/hpl-middleware-wallet/packages/icrc/docs/icrc.md",
+  "homepage": "https://github.com/research-ag/ic-wallet-kit/packages/icrc/docs/icrc.md",
   "directories": {
     "lib": "dist"
   },

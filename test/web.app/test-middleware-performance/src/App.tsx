@@ -1,7 +1,7 @@
 import { HttpAgent, Identity } from "@dfinity/agent";
 import { Ed25519KeyIdentity } from "@dfinity/identity";
-import { IdentifierService, ILogger, IStorage, ReplicationConfiguration } from "@ic-wallet-middleware/common";
-import { IcrcInitializer } from "@ic-wallet-middleware/icrc";
+import { IdentifierService, ILogger, IStorage, ReplicationConfiguration } from "@ic-wallet-kit/common";
+import { IcrcInitializer } from "@ic-wallet-kit/icrc";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import "reflect-metadata";
 import { getRxStorageMemory } from "rxdb/plugins/storage-memory";

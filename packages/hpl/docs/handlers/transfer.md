@@ -48,8 +48,8 @@ Get fee constant for current user ledger canister.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetHplFeeConstantHandler } from "@ic-wallet-middleware/hpl";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetHplFeeConstantHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -109,7 +109,7 @@ Transfer from account or link to account or link.
 ### Examples
 
 ```typescript
-import { TransferHandler } from "@ic-wallet-middleware/hpl";
+import { TransferHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {

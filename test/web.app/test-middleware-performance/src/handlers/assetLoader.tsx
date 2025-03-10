@@ -1,5 +1,5 @@
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetListAssetHandler, IcrcDbContext } from "@ic-wallet-middleware/icrc";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetListAssetHandler, IcrcDbContext } from "@ic-wallet-kit/icrc";
 import { startTransition, useEffect, useState } from 'react';
 import Container from "typedi";
 

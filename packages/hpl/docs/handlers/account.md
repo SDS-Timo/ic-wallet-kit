@@ -44,7 +44,7 @@ Add account to current user account list.
 ### Examples
 
 ```typescript
-import { AddHplAccountHandler } from "@ic-wallet-middleware/hpl";
+import { AddHplAccountHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -112,7 +112,7 @@ Edit account to current user account list.
 ### Examples
 
 ```typescript
-import { EditHplAccountHandler } from "@ic-wallet-middleware/hpl";
+import { EditHplAccountHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -176,8 +176,8 @@ Get account list for current user.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetHplAccountListHandler } from "@ic-wallet-middleware/hpl";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetHplAccountListHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {

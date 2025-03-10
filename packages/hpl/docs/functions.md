@@ -70,8 +70,8 @@ Public functions for work with HPL handlers.
 
 ### Example
 ```typescript
-import { GetHplAccountListInfo, getHplAssetList } from "@ic-wallet-middleware/hpl";
-import { LoadType } from "@ic-wallet-middleware/common";
+import { GetHplAccountListInfo, getHplAssetList } from "@ic-wallet-kit/hpl";
+import { LoadType } from "@ic-wallet-kit/common";
 
 (() => {
     const form:GetHplAccountListInfo = {

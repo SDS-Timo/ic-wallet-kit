@@ -42,7 +42,7 @@ Check the dictionary principal of the canister.
 ### Examples
 
 ```typescript
-import { CheckDictionaryPrincipalHandler } from "@ic-wallet-middleware/hpl";
+import { CheckDictionaryPrincipalHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -101,7 +101,7 @@ Check the ledger principal of the canister.
 ### Examples
 
 ```typescript
-import { CheckLedgerPrincipalHandler } from "@ic-wallet-middleware/hpl";
+import { CheckLedgerPrincipalHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {

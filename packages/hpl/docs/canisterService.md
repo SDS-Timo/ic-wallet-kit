@@ -7,7 +7,7 @@ Configuration for ledger, dictionary and owner canisters.
 ### Init
 
 ```typescript
-import { CanisterService } from "@ic-wallet-middleware/hpl";
+import { CanisterService } from "@ic-wallet-kit/hpl";
 
 const canisterService = new CanisterService("ledger-canister-id",
             "dictionary-canister-id",

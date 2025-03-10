@@ -50,7 +50,7 @@ Add asset to contact list
 ### Examples
 
 ```typescript
-import { AddAssetContactHandler} from "@ic-wallet-middleware/icrc";
+import { AddAssetContactHandler} from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -108,7 +108,7 @@ Add contact name and principal to user list
 ### Examples
 
 ```typescript
-import { AddContactHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { AddContactHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -180,7 +180,7 @@ Add sub account to asset contact.
 ### Examples
 
 ```typescript
-import { AddSubAccountContactHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { AddSubAccountContactHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -253,7 +253,7 @@ Edit contact name.
 ### Examples
 
 ```typescript
-import { EditContactHandler } from "@ic-wallet-middleware/icrc";
+import { EditContactHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -310,7 +310,7 @@ Edit contact name or add contact to user list by name and principal.
 ### Examples
 
 ```typescript
-import { EditOrAddContactHandler } from "@ic-wallet-middleware/icrc";
+import { EditOrAddContactHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -370,7 +370,7 @@ Edit sub account info or add new sub account.
 ### Examples
 
 ```typescript
-import { EditOrAddSubAccountContactHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { EditOrAddSubAccountContactHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -434,7 +434,7 @@ Edit sub account info.
 ### Examples
 
 ```typescript
-import { EditOrAddSubAccountContactHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { EditOrAddSubAccountContactHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -503,8 +503,8 @@ Get all currrent user contacts.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetListContactHandler} from "@ic-wallet-middleware/icrc";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetListContactHandler} from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -592,7 +592,7 @@ Remove asset from contact list.
 ### Examples
 
 ```typescript
-import { RemoveAssetContactHandler } from "@ic-wallet-middleware/icrc";
+import { RemoveAssetContactHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -648,7 +648,7 @@ Remove current user contact.
 ### Examples
 
 ```typescript
-import { RemoveContactHandler } from "@ic-wallet-middleware/icrc";
+import { RemoveContactHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -705,7 +705,7 @@ Remove sub account from contact list.
 ### Examples
 
 ```typescript
-import { RemoveSubAccountContactHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { RemoveSubAccountContactHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {

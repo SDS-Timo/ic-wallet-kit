@@ -9,8 +9,8 @@ HPL Wallet is a library for the high-performance ledger. This library allows use
 To install this library to an external project, follow the procedure:
 
 ```
-npm install @ic-wallet-middleware/common
-npm install @ic-wallet-middleware/hpl
+npm install @ic-wallet-kit/common
+npm install @ic-wallet-kit/hpl
 ```
 
 ---
@@ -41,8 +41,8 @@ The `HplInitializer.build` function takes the parameters:
 ```typescript
 import { Logger } from "@app/main";
 import { HttpAgent } from "@dfinity/agent";
-import { IdentifierService, RefreshServiceConfiguration, ReplicationConfiguration } from "@ic-wallet-middleware/common";
-import { CanisterService, HplInitializer } from "@ic-wallet-middleware/hpl";
+import { IdentifierService, RefreshServiceConfiguration, ReplicationConfiguration } from "@ic-wallet-kit/common";
+import { CanisterService, HplInitializer } from "@ic-wallet-kit/hpl";
 import "reflect-metadata";
 import { getRxStorageMemory } from "rxdb/plugins/storage-memory";
 import { createActor as hplCreator } from "./database/candid/hpl";

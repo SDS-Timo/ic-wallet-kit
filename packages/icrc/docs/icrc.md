@@ -9,8 +9,8 @@ ICRC is a library for Internet Computer Network. This library allows users to ma
 To install this library to an external project, follow the procedure:
 
 ```
-npm install @ic-wallet-middleware/common
-npm install @ic-wallet-middleware/icrc
+npm install @ic-wallet-kit/common
+npm install @ic-wallet-kit/icrc
 ```
 
 ---
@@ -41,8 +41,8 @@ The `IcrcInitializer.build` function takes the parameters:
 #### Example
 
 ```typescript
-import { IdentifierService, RefreshServiceConfiguration, ReplicationConfiguration } from "@ic-wallet-middleware/common";
-import { AssetManagerConfiguration, IcrcInitializer, TransactionManagerConfiguration } from "@ic-wallet-middleware/icrc";
+import { IdentifierService, RefreshServiceConfiguration, ReplicationConfiguration } from "@ic-wallet-kit/common";
+import { AssetManagerConfiguration, IcrcInitializer, TransactionManagerConfiguration } from "@ic-wallet-kit/icrc";
 import { getRxStorageMemory } from "rxdb/plugins/storage-memory";
 import { createActor } from "./database/candid";
 import "reflect-metadata";

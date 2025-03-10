@@ -45,7 +45,7 @@ Get transactions for selected asset and sub account.
 ### Examples
 
 ```typescript
-import { GetListTransactionHandler } from "@ic-wallet-middleware/icrc";
+import { GetListTransactionHandler } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {
@@ -141,7 +141,7 @@ Transfer from asset to asset.
 
 ```typescript
 import { Principal } from "@dfinity/principal";
-import { SendTransactionHandler, SubAccountId } from "@ic-wallet-middleware/icrc";
+import { SendTransactionHandler, SubAccountId } from "@ic-wallet-kit/icrc";
 import Container from "typedi";
 
 (async () => {

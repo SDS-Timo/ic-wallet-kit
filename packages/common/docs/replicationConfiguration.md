@@ -11,7 +11,7 @@ Configuration for RxDB replication between the clients and the server. More info
 ### Example
 
 ```typescript
-import { ReplicationConfiguration } from "@ic-wallet-middleware/common";
+import { ReplicationConfiguration } from "@ic-wallet-kit/common";
 
 const replicationConfiguration: ReplicationConfiguration = {
         enable: true,

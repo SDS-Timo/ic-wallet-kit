@@ -50,7 +50,7 @@ Add contact to current user contact list.
 
 ```typescript
 import { Principal } from "@dfinity/principal";
-import { AddHplContactHandler } from "@ic-wallet-middleware/hpl";
+import { AddHplContactHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -139,7 +139,7 @@ Add remote to current user contact.
 
 ```typescript
 import { Principal } from "@dfinity/principal";
-import { AddHplContactRemotesHandler } from "@ic-wallet-middleware/hpl";
+import { AddHplContactRemotesHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -214,7 +214,7 @@ Edit contact info.
 
 ```typescript
 import { Principal } from "@dfinity/principal";
-import { EditHplContactHandler } from "@ic-wallet-middleware/hpl";
+import { EditHplContactHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -295,8 +295,8 @@ Get available links for current user contact.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetHplContactAvailableLinkHandler } from "@ic-wallet-middleware/hpl";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetHplContactAvailableLinkHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -381,8 +381,8 @@ Get contact list for current user.
 ### Examples
 
 ```typescript
-import { LoadType } from "@ic-wallet-middleware/common";
-import { GetHplContactListHandler } from "@ic-wallet-middleware/hpl";
+import { LoadType } from "@ic-wallet-kit/common";
+import { GetHplContactListHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -479,7 +479,7 @@ Remove current user contact.
 
 ```typescript
 import { Principal } from "@dfinity/principal";
-import { RemoveHplContactHandler } from "@ic-wallet-middleware/hpl";
+import { RemoveHplContactHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
@@ -536,7 +536,7 @@ Remove current user contact.
 
 ```typescript
 import { Principal } from "@dfinity/principal";
-import { RemoveHplContactLinkHandler } from "@ic-wallet-middleware/hpl";
+import { RemoveHplContactLinkHandler } from "@ic-wallet-kit/hpl";
 import Container from "typedi";
 
 (async () => {
