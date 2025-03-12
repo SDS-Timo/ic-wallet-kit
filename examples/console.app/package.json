@@ -17,7 +17,7 @@
     "@dfinity/agent": "2.3.0",
     "@dfinity/identity-secp256k1": "2.3.0",
     "@dfinity/principal": "2.3.0",
-    "@ic-wallet-kit/common": "file:../../packages/common",
+    "@ic-wallet-kit/common": "0.0.1",
     "@ic-wallet-kit/icrc": "file:../../packages/icrc",
     "@ic-wallet-kit/hpl": "file:../../packages/hpl",
     "@research-ag/hpl-client": "0.0.3",

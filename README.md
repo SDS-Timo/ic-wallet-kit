@@ -1,4 +1,4 @@
-# ic-middleware-wallet
+# ic-wallet-kit
 
 [![typescript](https://img.shields.io/badge/typescript-5.4.5-blue)](https://www.typescriptlang.org/)
 [![rxdb](https://img.shields.io/badge/RxDb-16.7.0-blue)](https://rxdb.info/)
