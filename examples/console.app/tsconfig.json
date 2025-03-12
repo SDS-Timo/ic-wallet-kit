@@ -1,12 +1,13 @@
 {
   "ts-node": {
+    "esm": true,
     "require": [
       "tsconfig-paths/register"
     ]
   },
   "compilerOptions": {
     "target": "ESNext",
-    "module": "commonjs",
+    "module": "NodeNext",
     "lib": [
       "dom",
       "dom.iterable",
@@ -28,7 +29,7 @@
     "emitDecoratorMetadata": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "moduleResolution": "node",
+    "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,

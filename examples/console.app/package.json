@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "console": "clear && ts-node --experimental-specifier-resolution=node --esm src/console.ts",
+    "console": "clear && tsx src/console.ts",
     "dev": "clear && tsx src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "update-middleware": "npm install @ic-wallet-kit/common && npm install @ic-wallet-kit/icrc && npm install @ic-wallet-kit/hpl",
     "rmNodeFolder": "rm -rf node_modules",
     "install-force": "npm run rmNodeFolder && npm install"
@@ -32,7 +31,8 @@
   },
   "devDependencies": {
     "ts-node": "10.9.2",
-    "tsconfig-paths": "4.2.0"
+    "tsconfig-paths": "4.2.0",
+    "tsx": "4.19.3"
   },
   "exclude": [
     "node_modules",
