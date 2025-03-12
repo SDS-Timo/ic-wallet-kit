@@ -29,7 +29,7 @@
     "rmNodeFolder": "rm -rf node_modules",
     "install-force": "npm run rmNodeFolder && npm install",
     "test": "jest --env=node --colors --coverage test",
-    "publish": "npm install @ic-wallet-kit/common@latest && npm run publish-force"
+    "publish-live": "npm install @ic-wallet-kit/common@latest && npm run publish-force"
   },
   "dependencies": {
     "@dfinity/agent": "2.3.0",

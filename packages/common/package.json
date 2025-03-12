@@ -29,7 +29,7 @@
     "rmNodeFolder": "rm -rf node_modules",
     "install-force": "npm run rmNodeFolder && npm install",
     "test": "jest --env=node --colors --coverage test",
-    "publish": "npm run publish-force"
+    "publish-live": "npm run publish-force"
   },
   "dependencies": {
     "@dfinity/agent": "2.3.0",
@@ -37,6 +37,7 @@
     "big-integer": "1.6.52",
     "reflect-metadata": "^0.2.2",
     "rxjs": "7.8.2",
+    "rxdb": "^16.8.0",
     "typedi": "0.10.0"
   },
   "devDependencies": {
@@ -45,9 +46,5 @@
     "ts-jest": "29.1.2",
     "tsconfig-paths": "4.2.0",
     "typescript": "^5.4.5"
-  },
-  "peerDependencies": {
-    "rxdb": "^16.8.0",
-    "rxjs": "^7.8.1"
   }
 }
