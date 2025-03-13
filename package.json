@@ -37,10 +37,17 @@
     "ic-wallet-kit"
   ],
   "devDependencies": {
-    "@eslint/js": "^9.13.0",
-    "eslint": "^9.13.0",
+    "@eslint/js": "9.22.0",
+    "eslint": "9.22.0",
     "globals": "^15.11.0",
-    "typescript-eslint": "^8.11.0"
+    "typescript-eslint": "8.26.1"
+  },
+  "overrides": {
+      "ws": "8.18.1",
+      "rxdb": {
+        "@babel/runtime": "7.26.10",
+        "ws": "8.18.1"
+      }
   },
   "workspaces": [
     "packages/common",

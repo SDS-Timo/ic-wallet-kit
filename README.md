@@ -25,6 +25,12 @@ HPL Wallet is a library for the high-performance ledger. More info [here](/packa
 
 ---
 
+## Example console app
+
+Example console app is a console app which provide example of usage ICRC Wallet package. More info [here](/examples/console.app/README.md).
+
+---
+
 ## License
 
 Apache 2.0

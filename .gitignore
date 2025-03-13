@@ -11,3 +11,6 @@ node_modules/
 /packages/icrc/package-lock.json
 /packages/hpl/package-lock.json
 *swp
+examples/console.app/.dfx/
+examples/console.app/.mops/
+examples/console.app/wallet-storage
