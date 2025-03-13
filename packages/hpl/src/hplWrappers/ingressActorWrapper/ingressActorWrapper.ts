@@ -83,7 +83,6 @@ export class IngressActorWrapper {
   }
 
   public async getAccountInfo(account: bigint): Promise<Array<[bigint, AccountType]> | []> {
-    console.log(this.actor);
     try {
       const accountInfo = await this.actor.accountInfo(
         {

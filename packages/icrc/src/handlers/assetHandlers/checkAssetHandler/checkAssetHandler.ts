@@ -99,8 +99,6 @@ export class CheckAssetHandler extends BaseHandler<CheckAssetForm, ManualAssetVi
             }
             catch (e: any) {
 
-                console.log(e);
-
                 result.indexResult = {
                     isSuccess: false,
                     message: "Index interface not recognized",

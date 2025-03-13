@@ -89,7 +89,6 @@ export class HplMintCacheRepository implements IHplMintCacheRepository {
                 return model;
             }
             catch (e: any) {
-                console.log("catch");
                 this.logger.logError(e, "Wrong local cache data", [value])
                 return undefined;
             }

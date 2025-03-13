@@ -23,7 +23,6 @@ export class TokenLocalCache {
     getTokens(): TokenModel[] {
         const key = this.getKey();
         const value = this.storage.getItem(key);
-        console.log(value);
         if (value) {
             try {
                 const model: TokenModel[] = jsonParse(value);

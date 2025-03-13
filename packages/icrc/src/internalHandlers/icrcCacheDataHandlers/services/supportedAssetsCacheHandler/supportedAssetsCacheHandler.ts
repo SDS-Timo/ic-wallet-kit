@@ -1,4 +1,4 @@
-import { BaseCacheDataHandler, CacheDataError, IInfo, ILogger, IdentifierService, LoadType, jsonStringify } from "@ic-wallet-kit/common";
+import { BaseCacheDataHandler, CacheDataError, IInfo, ILogger, IdentifierService, LoadType } from "@ic-wallet-kit/common";
 import { IcrcCacheMetadataErrorKey, IcrcCacheMetadataErrorMessage } from "@icrc/errors/cacheErrorMessages";
 import { ServiceLocalCache } from "@icrc/repositories";
 import { Icrc84ActorWrapper } from "@icrc/wrappers";
@@ -50,9 +50,6 @@ export class SupportedAssetsCacheHandler extends BaseCacheDataHandler<
             info.servicePrincipal,
         );
         const supportedAssets = await icrc84ActorWrapper.getSupportedAssets();
-
-
-        console.log(jsonStringify(supportedAssets));
 
         return {
             principals: supportedAssets.map((p) => p.toString()),
