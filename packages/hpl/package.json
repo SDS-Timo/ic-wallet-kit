@@ -1,6 +1,6 @@
 {
   "name": "@ic-wallet-kit/hpl",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Ic middleware wallet HPL protocol",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -16,10 +16,13 @@
     "lib": "dist"
   },
   "keywords": [
-    "icp", "wallet", "rxdb", "hpl"
+    "icp",
+    "wallet",
+    "rxdb",
+    "hpl"
   ],
   "author": "MR Research",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "scripts": {
     "rmdir": "rm -rf ./dist",
     "build": "npm run rmdir && tsc && tsc-alias",
@@ -38,8 +41,8 @@
     "@dfinity/identity": "2.3.0",
     "@dfinity/identity-secp256k1": "2.3.0",
     "@dfinity/principal": "2.3.0",
-    "@ic-wallet-kit/common": "0.0.1",
-    "@research-ag/hpl-client": "0.0.3",
+    "@ic-wallet-kit/common": "0.0.5",
+    "@research-ag/hpl-client": "0.1.0",
     "big-integer": "1.6.52",
     "moment": "2.30.1",
     "reflect-metadata": "0.2.2",
