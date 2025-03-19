@@ -1,6 +1,6 @@
 {
   "name": "@ic-wallet-kit/common",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Ic middleware wallet common objects",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -16,10 +16,12 @@
     "lib": "dist"
   },
   "keywords": [
-    "icp", "wallet", "rxdb"
+    "icp",
+    "wallet",
+    "rxdb"
   ],
   "author": "MR Research",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "scripts": {
     "rmdir": "rm -rf ./dist",
     "build": "npm run rmdir && tsc && tsc-alias",
@@ -37,7 +39,7 @@
     "big-integer": "1.6.52",
     "reflect-metadata": "^0.2.2",
     "rxjs": "7.8.2",
-    "rxdb": "16.8.0",
+    "rxdb": "16.8.1",
     "typedi": "0.10.0",
     "ws": "8.18.1"
   },
@@ -48,6 +50,5 @@
     "tsconfig-paths": "4.2.0",
     "typescript": "^5.4.5",
     "tsc-alias": "1.8.11"
-
   }
 }

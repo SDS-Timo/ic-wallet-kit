@@ -9,7 +9,7 @@
     "url": "git+https://github.com/research-ag/ic-wallet-kit.git"
   },
   "author": "MR Research",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "scripts": {
     "build-common": "cd packages/common && npm run build-publish && cd ../..",
     "common-publish-force": "cd packages/common && npm run publish-force && cd ../..",
@@ -43,11 +43,11 @@
     "typescript-eslint": "8.26.1"
   },
   "overrides": {
-      "ws": "8.18.1",
-      "rxdb": {
-        "@babel/runtime": "7.26.10",
-        "ws": "8.18.1"
-      }
+    "ws": "8.18.1",
+    "rxdb": {
+      "@babel/runtime": "7.26.10",
+      "ws": "8.18.1"
+    }
   },
   "workspaces": [
     "packages/common",
