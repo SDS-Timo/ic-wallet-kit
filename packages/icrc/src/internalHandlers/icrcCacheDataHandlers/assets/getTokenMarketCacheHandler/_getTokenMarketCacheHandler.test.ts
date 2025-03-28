@@ -12,6 +12,7 @@ import {
     AssetManagerConfiguration,
     TokenMarketInfo,
 } from "@icrc/types";
+import { BinanceWrapper } from "@icrc/wrappers/binance/binanceWrapper";
 
 describe("GetTokenMarketCacheHandler Tests", () => {
     const validInfo: GetTokenMarketCacheInfo = { loadType: LoadType.Cache };
@@ -23,6 +24,7 @@ describe("GetTokenMarketCacheHandler Tests", () => {
     let logger: MockLogger;
     let identifierService: ReturnType<typeof mockAnonymousIdentifierService>;
     let tokenMarketCacheRepository: jest.Mocked<TokenMarketLocalCache>;
+    let binanceWrapper: jest.Mocked<BinanceWrapper>;
 
     beforeEach(() => {
         logger = new MockLogger();
@@ -30,6 +32,10 @@ describe("GetTokenMarketCacheHandler Tests", () => {
         tokenMarketCacheRepository = new (<new () => TokenMarketLocalCache>(
             <unknown>TokenMarketLocalCache
         ))() as jest.Mocked<TokenMarketLocalCache>;
+
+        binanceWrapper = new (<new () => BinanceWrapper>(
+            <unknown>BinanceWrapper
+        ))() as jest.Mocked<BinanceWrapper>;
 
         jest.clearAllMocks();
     });
@@ -43,7 +49,8 @@ describe("GetTokenMarketCacheHandler Tests", () => {
                 logger,
                 configuration,
                 identifierService,
-                tokenMarketCacheRepository
+                tokenMarketCacheRepository,
+                binanceWrapper
             );
 
             const error = handler.getCacheDataError(validInfo);
@@ -62,7 +69,8 @@ describe("GetTokenMarketCacheHandler Tests", () => {
                 logger,
                 configuration,
                 identifierService,
-                tokenMarketCacheRepository
+                tokenMarketCacheRepository,
+                binanceWrapper
             );
 
             await handler.validate(validInfo);
@@ -78,7 +86,8 @@ describe("GetTokenMarketCacheHandler Tests", () => {
                 logger,
                 configuration,
                 identifierService,
-                tokenMarketCacheRepository
+                tokenMarketCacheRepository,
+                binanceWrapper
             );
 
             const forceTypes = handler.getLoadForceType();
@@ -103,6 +112,8 @@ describe("GetTokenMarketCacheHandler Tests", () => {
                 }),
             };
 
+            binanceWrapper.getBinanceTokens = jest.fn().mockReturnValue([]);
+
             Actor.createActor = jest.fn().mockReturnValue(mockMarketActor);
 
             const configuration: AssetManagerConfiguration = {
@@ -112,7 +123,8 @@ describe("GetTokenMarketCacheHandler Tests", () => {
                 logger,
                 configuration,
                 identifierService,
-                tokenMarketCacheRepository
+                tokenMarketCacheRepository,
+                binanceWrapper
             );
 
             const result = await handler.getExternalData(validInfo);
@@ -139,6 +151,9 @@ describe("GetTokenMarketCacheHandler Tests", () => {
                 }),
             };
 
+
+            binanceWrapper.getBinanceTokens = jest.fn().mockReturnValue([]);
+
             Actor.createActor = jest.fn().mockReturnValue(mockMarketActor);
 
             const configuration: AssetManagerConfiguration = {
@@ -148,7 +163,8 @@ describe("GetTokenMarketCacheHandler Tests", () => {
                 logger,
                 configuration,
                 identifierService,
-                tokenMarketCacheRepository
+                tokenMarketCacheRepository,
+                binanceWrapper
             );
 
             const result = await handler.getExternalData(validInfo);
@@ -169,7 +185,8 @@ describe("GetTokenMarketCacheHandler Tests", () => {
                 logger,
                 configuration,
                 identifierService,
-                tokenMarketCacheRepository
+                tokenMarketCacheRepository,
+                binanceWrapper
             );
 
             tokenMarketCacheRepository.setTokenMarkets = jest.fn();
@@ -195,7 +212,8 @@ describe("GetTokenMarketCacheHandler Tests", () => {
                 logger,
                 configuration,
                 identifierService,
-                tokenMarketCacheRepository
+                tokenMarketCacheRepository,
+                binanceWrapper
             );
 
             const result = await handler.getLocalCacheData(validInfo);
@@ -215,7 +233,8 @@ describe("GetTokenMarketCacheHandler Tests", () => {
                 logger,
                 configuration,
                 identifierService,
-                tokenMarketCacheRepository
+                tokenMarketCacheRepository,
+                binanceWrapper
             );
 
             const result = await handler.getLocalCacheData(validInfo);

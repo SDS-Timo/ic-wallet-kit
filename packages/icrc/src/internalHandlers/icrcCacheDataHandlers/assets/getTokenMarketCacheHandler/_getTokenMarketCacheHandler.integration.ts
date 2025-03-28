@@ -1,8 +1,9 @@
-import { HttpAgent } from "@dfinity/agent";
-import { IdentifierService, LoadType } from "@ic-wallet-kit/common";
+import { LoadType } from "@ic-wallet-kit/common";
 import { MockLogger } from "@icrc/__tests_utils/mockLogger";
+import { mockAnonymousIdentifierService } from "@icrc/__tests_utils/seedToIdentity";
 import { GetTokenMarketCacheHandler } from "@icrc/internalHandlers/icrcCacheDataHandlers/assets/getTokenMarketCacheHandler/getTokenMarketCacheHandler";
 import { TokenMarketLocalCache } from "@icrc/repositories/cache/tokenMarketLocalCache/tokenMarketLocalCache";
+import { BinanceWrapper } from "@icrc/wrappers/binance/binanceWrapper";
 
 
 describe("Unit getTokenMarketCacheHandler tests", () => {
@@ -11,21 +12,10 @@ describe("Unit getTokenMarketCacheHandler tests", () => {
             {
                 name: "getTokenMarketCacheHandler no cache",
                 input: {
-                    cacheResult: undefined,
-                    loadType: LoadType.Cache
+                    loadType: LoadType.Full
                 },
                 result: {
                     items: 1
-                }
-            },
-            {
-                name: "getTokenMarketCacheHandler cache presents",
-                input: {
-                    cacheResult: [],
-                    loadType: LoadType.Cache
-                },
-                result: {
-                    items: 0
                 }
             }
         ];
@@ -34,9 +24,9 @@ describe("Unit getTokenMarketCacheHandler tests", () => {
         it(test.name, async () => {
             const tokenMarketCacheRepository = new (<new () => TokenMarketLocalCache><unknown>TokenMarketLocalCache)() as jest.Mocked<TokenMarketLocalCache>;
 
-            tokenMarketCacheRepository.getTokenMarkets = jest.fn().mockReturnValue(test.input.cacheResult);
-
-            tokenMarketCacheRepository.setTokenMarkets = jest.fn().mockReturnValue({});
+            const binanceWrapper = new (<new () => BinanceWrapper>(
+                        <unknown>BinanceWrapper
+                    ))() as jest.Mocked<BinanceWrapper>;
 
             const logger = new MockLogger();
 
@@ -45,13 +35,15 @@ describe("Unit getTokenMarketCacheHandler tests", () => {
 
             };
 
-            const identifierService = new (<new () => IdentifierService><unknown>IdentifierService)() as jest.Mocked<IdentifierService>;
+            tokenMarketCacheRepository.setTokenMarkets = jest.fn().mockReturnValue({});
 
-            identifierService.getAgent = jest.fn().mockReturnValue(HttpAgent.createSync())
+            const identifierService =  mockAnonymousIdentifierService();
 
-            const getTokenMarketCacheHandler = new GetTokenMarketCacheHandler(logger, assetManagerConfiguration, identifierService, tokenMarketCacheRepository);
+            const getTokenMarketCacheHandler = new GetTokenMarketCacheHandler(logger, assetManagerConfiguration, identifierService, tokenMarketCacheRepository, binanceWrapper);
 
             const result = await getTokenMarketCacheHandler.handle({ loadType: test.input.loadType });
+
+         //   console.log(jsonStringify(result.data?.markets));
 
             expect(result.data?.markets.length).toBeGreaterThanOrEqual(test.result.items);
 

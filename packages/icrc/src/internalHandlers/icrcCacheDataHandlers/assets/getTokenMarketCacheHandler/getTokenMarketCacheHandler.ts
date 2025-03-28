@@ -6,12 +6,14 @@ import { LatestExtendedToken, _SERVICE as MarketActor } from "@icrc/candid/neutr
 import { IcrcCacheTransactionFeeErrorKey, IcrcCacheTransactionFeeErrorMessage } from "@icrc/errors/cacheErrorMessages";
 import { TokenMarketLocalCache } from "@icrc/repositories/cache/tokenMarketLocalCache/tokenMarketLocalCache";
 import { AssetManagerConfiguration, TokenMarketInfo } from "@icrc/types";
+import { BinanceWrapper } from "@icrc/wrappers/binance/binanceWrapper";
 import { Inject, Service } from "typedi";
 
 const marketCanister = "u45jl-liaaa-aaaam-abppa-cai";
 
 export interface GetTokenMarketCacheInfo extends IInfo {
 }
+
 export interface GetTokenMarketCacheResult {
     markets: TokenMarketInfo[];
 }
@@ -25,7 +27,8 @@ export class GetTokenMarketCacheHandler extends BaseCacheDataHandler<GetTokenMar
         @Inject("AssetManagerConfiguration")
         private configuration: AssetManagerConfiguration,
         private identifierService: IdentifierService,
-        private tokenMarketCacheRepository: TokenMarketLocalCache
+        private tokenMarketCacheRepository: TokenMarketLocalCache,
+        private binanceWrapper: BinanceWrapper
     ) {
         super(logger);
     }
@@ -58,6 +61,21 @@ export class GetTokenMarketCacheHandler extends BaseCacheDataHandler<GetTokenMar
         const res = await marketActor.get_latest_wallet_tokens();
 
         tokenMarkets = this.extendedTokenToMarketInfo(res.latest);
+
+        const binanceTokens = await this.binanceWrapper.getBinanceTokens();
+
+        for(let binance of binanceTokens)
+        {
+            const token = tokenMarkets.find(tm => binance.symbol == tm.symbol);
+            if(token)
+            {
+                token.price = binance.price;
+            }
+            else
+            {
+                tokenMarkets.push(binance);
+            }
+        }
 
         return {
             markets: tokenMarkets
